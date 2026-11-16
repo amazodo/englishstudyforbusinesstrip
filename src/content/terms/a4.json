@@ -1,0 +1,87 @@
+[
+  {
+    "id": "T-A4-001", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 1,
+    "term": "technical safety concept", "abbreviation": "TSC", "ipa": "/ˈteknɪkəl ˈseɪfti ˈkɑːnsept/", "stressHint": "TECH-ni-cal SAFE-ty CON-cept",
+    "meaningKo": "기술 안전 컨셉 (TSC)",
+    "definitionEn": "The technical safety requirements and their allocation to system elements.",
+    "standardRef": "ISO 26262-4:2018 Clause 6",
+    "example": { "en": "How does the technical safety concept implement the functional safety requirements?", "ko": "기술 안전 컨셉은 기능 안전 요구사항을 어떻게 구현합니까?" },
+    "collocations": ["TSC review", "technical safety requirement (TSR)"],
+    "confusableIds": ["C-013"]
+  },
+  {
+    "id": "T-A4-002", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 1,
+    "term": "safety mechanism", "ipa": "/ˈseɪfti ˈmekənɪzəm/", "stressHint": "SAFE-ty MECH-a-nism",
+    "meaningKo": "안전 메커니즘",
+    "definitionEn": "A technical solution that detects, controls or mitigates faults to keep or reach a safe state.",
+    "standardRef": "ISO 26262-1:2018 (용어 정의)",
+    "example": { "en": "Which safety mechanism detects this failure mode?", "ko": "어떤 안전 메커니즘이 이 고장 모드를 검출합니까?" },
+    "collocations": ["implement a safety mechanism", "diagnostic coverage of the safety mechanism"],
+    "pitfall": "mechanism의 ch는 /k/ 소리 → '메커니즘'.",
+    "confusableIds": ["C-007"]
+  },
+  {
+    "id": "T-A4-003", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 2,
+    "term": "architecture", "ipa": "/ˈɑːrkɪtektʃər/", "stressHint": "AR-chi-tec-ture",
+    "meaningKo": "아키텍처, 구조",
+    "definitionEn": "The structure of a system, its elements and their interfaces.",
+    "standardRef": "ISO 26262-4:2018 Clause 6",
+    "example": { "en": "Where are the safety mechanisms shown in the system architecture?", "ko": "시스템 아키텍처에서 안전 메커니즘은 어디에 표시되어 있습니까?" },
+    "collocations": ["system architectural design", "architecture diagram"],
+    "pitfall": "ch는 /k/ 소리, 강세는 첫 음절 AR. 형용사 architectural은 ar-chi-TEC-tur-al."
+  },
+  {
+    "id": "T-A4-004", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 2,
+    "term": "redundancy", "ipa": "/rɪˈdʌndənsi/", "stressHint": "re-DUN-dan-cy",
+    "meaningKo": "이중화, 중복성",
+    "definitionEn": "Having more than one means to perform a function so that one can take over if another fails.",
+    "example": { "en": "Is the redundancy independent enough to avoid common cause failures?", "ko": "이중화가 공통 원인 고장을 피할 만큼 충분히 독립적입니까?" },
+    "collocations": ["redundant channel", "diverse redundancy"]
+  },
+  {
+    "id": "T-A4-005", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 2,
+    "term": "plausibility check", "ipa": "/ˌplɔːzəˈbɪləti tʃek/", "stressHint": "plau-si-BIL-i-ty CHECK",
+    "meaningKo": "타당성 검사 (신호가 현실적인 값인지 확인)",
+    "definitionEn": "A check whether a signal value is realistic compared to other signals or limits.",
+    "example": { "en": "The wheel speed signals are monitored by a plausibility check.", "ko": "휠 속도 신호는 타당성 검사로 감시됩니다." },
+    "collocations": ["plausibility monitoring", "range check"],
+    "pitfall": "강세는 BIL. '플라우저빌리티'가 아니라 '플로저빌러티'."
+  },
+  {
+    "id": "T-A4-006", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 1,
+    "term": "fault injection", "ipa": "/fɔːlt ɪnˈdʒekʃən/", "stressHint": "FAULT in-JEC-tion",
+    "meaningKo": "고장 주입 (시험)",
+    "definitionEn": "Deliberately introducing faults to check that safety mechanisms react correctly.",
+    "example": { "en": "Were the safety mechanisms verified by fault injection tests?", "ko": "안전 메커니즘을 고장 주입 시험으로 검증했습니까?" },
+    "collocations": ["fault injection test", "inject a fault"]
+  },
+  {
+    "id": "T-A4-007", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 1,
+    "term": "verification", "ipa": "/ˌverɪfɪˈkeɪʃən/", "stressHint": "ver-i-fi-CA-tion",
+    "meaningKo": "검증 (요구사항대로 만들었는지 확인)",
+    "definitionEn": "Checking by review, analysis or test that a work product meets its requirements.",
+    "standardRef": "ISO 26262-8:2018 Clause 9",
+    "example": { "en": "What verification methods did you use for this requirement?", "ko": "이 요구사항에 어떤 검증 방법을 사용했습니까?" },
+    "collocations": ["verification report", "verify against the requirements"],
+    "confusableIds": ["C-001"]
+  },
+  {
+    "id": "T-A4-008", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 1,
+    "term": "safety validation", "ipa": "/ˈseɪfti ˌvælɪˈdeɪʃən/", "stressHint": "SAFE-ty val-i-DA-tion",
+    "meaningKo": "안전 타당성 확인 (차량 수준)",
+    "definitionEn": "Confirming at vehicle level that the safety goals are achieved.",
+    "standardRef": "ISO 26262-4:2018 Clause 8",
+    "example": { "en": "How is safety validation planned at vehicle level?", "ko": "차량 수준의 안전 타당성 확인은 어떻게 계획되어 있습니까?" },
+    "collocations": ["validation plan", "vehicle test"],
+    "confusableIds": ["C-001"]
+  },
+  {
+    "id": "T-A4-009", "track": "audit", "domain": "iso26262", "category": "A4", "priority": 2,
+    "term": "pass/fail criteria", "ipa": "/pæs feɪl kraɪˈtɪriə/", "stressHint": "PASS FAIL cri-TE-ri-a",
+    "meaningKo": "합격/불합격 기준",
+    "definitionEn": "The conditions that decide whether a test passes or fails.",
+    "example": { "en": "The pass/fail criteria are not defined for these test cases.", "ko": "이 시험 케이스들에는 합격/불합격 기준이 정의되어 있지 않습니다." },
+    "collocations": ["acceptance criteria", "expected result"],
+    "pitfall": "criteria는 복수형, 단수는 criterion."
+  }
+]

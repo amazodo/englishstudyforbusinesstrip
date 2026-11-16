@@ -1,0 +1,304 @@
+[
+  {
+    "id": "T-A1-001", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "audit", "ipa": "/ˈɔːdɪt/", "stressHint": "AU-dit",
+    "meaningKo": "감사, 점검 (프로세스가 기준대로 수행되는지 확인)",
+    "definitionEn": "A systematic, independent check of whether a process follows the agreed requirements.",
+    "descriptionKo": "ISO 26262에서 Functional Safety Audit은 '프로세스' 수행을 평가한다. 산출물을 평가하는 Assessment와 구분.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": { "en": "We will conduct the audit over two days.", "ko": "점검은 이틀에 걸쳐 진행하겠습니다." },
+    "collocations": ["conduct an audit", "audit scope", "audit trail", "pass/fail an audit"],
+    "mnemonic": "audio(듣다)와 같은 어원 — 옛날엔 회계 장부를 '소리 내어 읽고 들으며' 점검했다.",
+    "confusableIds": ["C-002"]
+  },
+  {
+    "id": "T-A1-002", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "assessment", "ipa": "/əˈsesmənt/", "stressHint": "as-SESS-ment",
+    "meaningKo": "평가 (작업 산출물·안전 달성 여부를 판단)",
+    "definitionEn": "An evaluation of whether the work products and the item achieve functional safety.",
+    "descriptionKo": "Functional Safety Assessment는 아이템이 달성한 기능안전을 판단한다. 결과는 accept / conditional accept / reject.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": { "en": "The assessment covers the system, hardware and software work products.", "ko": "이번 평가는 시스템, 하드웨어, 소프트웨어 산출물을 다룹니다." },
+    "collocations": ["perform an assessment", "assessment report", "assessment result"],
+    "pitfall": "s가 두 번씩 두 군데(a-ss-e-ss-ment). 강세는 두 번째 음절.",
+    "confusableIds": ["C-002"]
+  },
+  {
+    "id": "T-A1-003", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "auditor", "ipa": "/ˈɔːdɪtər/", "stressHint": "AU-di-tor",
+    "meaningKo": "점검자, 감사자",
+    "definitionEn": "The person who performs an audit.",
+    "example": { "en": "I am the lead auditor for this audit.", "ko": "저는 이번 점검의 선임 점검자입니다." },
+    "collocations": ["lead auditor", "co-auditor", "external auditor"]
+  },
+  {
+    "id": "T-A1-004", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "auditee", "ipa": "/ˌɔːdɪˈtiː/", "stressHint": "au-di-TEE",
+    "meaningKo": "피점검자, 점검받는 조직",
+    "definitionEn": "The organization or person being audited.",
+    "example": { "en": "The auditee should prepare the requested documents in advance.", "ko": "피점검 측은 요청된 문서를 미리 준비해야 합니다." },
+    "collocations": ["auditee representative"],
+    "mnemonic": "-er는 하는 사람, -ee는 당하는 사람 (employer ↔ employee)."
+  },
+  {
+    "id": "T-A1-005", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "finding", "ipa": "/ˈfaɪndɪŋ/", "stressHint": "FIND-ing",
+    "meaningKo": "지적사항, 발견사항",
+    "definitionEn": "A result of an audit that shows a requirement is not fully met.",
+    "example": { "en": "We have raised one major finding regarding change management.", "ko": "변경 관리와 관련해 중대 지적사항 1건을 제기했습니다." },
+    "collocations": ["raise a finding", "major/minor finding", "close a finding", "open finding"],
+    "confusableIds": ["C-005"]
+  },
+  {
+    "id": "T-A1-006", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "observation", "ipa": "/ˌɑːbzərˈveɪʃən/", "stressHint": "ob-ser-VA-tion",
+    "meaningKo": "관찰사항 (부적합은 아니지만 개선 권고)",
+    "definitionEn": "A point that is not a nonconformity but could become a risk or be improved.",
+    "example": { "en": "This is not a finding, but we would like to note it as an observation.", "ko": "지적사항은 아니지만 관찰사항으로 기록하겠습니다." },
+    "collocations": ["note an observation", "record as an observation"],
+    "confusableIds": ["C-005"]
+  },
+  {
+    "id": "T-A1-007", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "nonconformity", "ipa": "/ˌnɑːnkənˈfɔːrməti/", "stressHint": "non-con-FOR-mi-ty",
+    "meaningKo": "부적합",
+    "definitionEn": "A failure to meet a specified requirement.",
+    "example": { "en": "The missing safety analysis is a nonconformity to Part 9.", "ko": "안전 분석 누락은 Part 9에 대한 부적합입니다." },
+    "collocations": ["major nonconformity", "minor nonconformity", "nonconformity report"],
+    "mnemonic": "non(아님) + conform(형태를 맞추다) + ity → 기준에 형태가 맞지 않음.",
+    "confusableIds": ["C-005"]
+  },
+  {
+    "id": "T-A1-008", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "deviation", "ipa": "/ˌdiːviˈeɪʃən/", "stressHint": "de-vi-A-tion",
+    "meaningKo": "일탈, (계획·기준에서) 벗어남",
+    "definitionEn": "A departure from a plan, process or requirement.",
+    "example": { "en": "Was this deviation from the safety plan approved?", "ko": "안전 계획에서 벗어난 이 부분은 승인받았습니까?" },
+    "collocations": ["approved deviation", "deviation from the plan", "deviation request"],
+    "mnemonic": "de(벗어나) + via(길) → 길에서 벗어남."
+  },
+  {
+    "id": "T-A1-009", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "evidence", "ipa": "/ˈevɪdəns/", "stressHint": "EV-i-dence",
+    "meaningKo": "증거, 근거 자료",
+    "definitionEn": "Documents or records that show something has been done.",
+    "example": { "en": "Could you show me the evidence for this review?", "ko": "이 리뷰에 대한 증거를 보여주시겠어요?" },
+    "collocations": ["provide evidence", "sufficient evidence", "evidence of compliance"],
+    "pitfall": "셀 수 없는 명사: an evidence (X) → a piece of evidence (O)."
+  },
+  {
+    "id": "T-A1-010", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "objective evidence", "ipa": "/əbˈdʒektɪv ˈevɪdəns/", "stressHint": "ob-JEC-tive EV-i-dence",
+    "meaningKo": "객관적 증거",
+    "definitionEn": "Facts that can be verified, such as records, not just verbal statements.",
+    "example": { "en": "We need objective evidence, not only a verbal explanation.", "ko": "말로 하는 설명만이 아니라 객관적 증거가 필요합니다." },
+    "collocations": ["based on objective evidence"]
+  },
+  {
+    "id": "T-A1-011", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "compliance", "ipa": "/kəmˈplaɪəns/", "stressHint": "com-PLY-ance",
+    "meaningKo": "준수, 적합",
+    "definitionEn": "The state of meeting rules, standards or requirements.",
+    "example": { "en": "Please explain how you ensure compliance with ISO 26262.", "ko": "ISO 26262 준수를 어떻게 보장하는지 설명해 주세요." },
+    "collocations": ["in compliance with", "compliance matrix", "demonstrate compliance"],
+    "mnemonic": "동사 comply(따르다) + ance. comply with ~ = ~를 따르다."
+  },
+  {
+    "id": "T-A1-012", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "requirement", "ipa": "/rɪˈkwaɪərmənt/", "stressHint": "re-QUIRE-ment",
+    "meaningKo": "요구사항",
+    "definitionEn": "A statement of what must be done or achieved.",
+    "example": { "en": "Which requirement does this test case verify?", "ko": "이 테스트 케이스는 어떤 요구사항을 검증합니까?" },
+    "collocations": ["meet a requirement", "safety requirement", "derive requirements"],
+    "confusableIds": ["C-006"]
+  },
+  {
+    "id": "T-A1-013", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "scope", "ipa": "/skoʊp/", "stressHint": "SCOPE",
+    "meaningKo": "범위",
+    "definitionEn": "The boundaries of what is included in an audit or project.",
+    "example": { "en": "The scope of this audit is the brake control ECU project.", "ko": "이번 점검 범위는 브레이크 제어 ECU 프로젝트입니다." },
+    "collocations": ["audit scope", "in scope / out of scope", "define the scope"]
+  },
+  {
+    "id": "T-A1-014", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "sampling", "ipa": "/ˈsæmplɪŋ/", "stressHint": "SAM-pling",
+    "meaningKo": "샘플링, 표본 추출",
+    "definitionEn": "Checking a selected part of the records instead of all of them.",
+    "example": { "en": "We will check a few requirements by sampling.", "ko": "몇 개의 요구사항을 샘플링으로 확인하겠습니다." },
+    "collocations": ["random sampling", "select a sample", "by sampling"]
+  },
+  {
+    "id": "T-A1-015", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "corrective action", "ipa": "/kəˈrektɪv ˈækʃən/", "stressHint": "cor-REC-tive AC-tion",
+    "meaningKo": "시정 조치",
+    "definitionEn": "An action to remove the cause of a nonconformity so it does not happen again.",
+    "example": { "en": "Please submit a corrective action plan within four weeks.", "ko": "4주 안에 시정 조치 계획을 제출해 주세요." },
+    "collocations": ["corrective action plan", "implement corrective actions", "CAPA"]
+  },
+  {
+    "id": "T-A1-016", "track": "audit", "domain": "general", "category": "A1", "priority": 3,
+    "term": "preventive action", "ipa": "/prɪˈventɪv ˈækʃən/", "stressHint": "pre-VEN-tive AC-tion",
+    "meaningKo": "예방 조치",
+    "definitionEn": "An action to prevent a possible problem before it happens.",
+    "example": { "en": "Have you also applied preventive actions to other projects?", "ko": "다른 프로젝트에도 예방 조치를 적용했습니까?" },
+    "collocations": ["take preventive action", "horizontal deployment"]
+  },
+  {
+    "id": "T-A1-017", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "root cause", "ipa": "/ruːt kɔːz/", "stressHint": "ROOT CAUSE",
+    "meaningKo": "근본 원인",
+    "definitionEn": "The most basic reason why a problem happened.",
+    "example": { "en": "What was the root cause of this missing review?", "ko": "이 리뷰 누락의 근본 원인은 무엇이었습니까?" },
+    "collocations": ["root cause analysis (RCA)", "identify the root cause", "5 Whys"]
+  },
+  {
+    "id": "T-A1-018", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "containment action", "ipa": "/kənˈteɪnmənt ˈækʃən/", "stressHint": "con-TAIN-ment AC-tion",
+    "meaningKo": "봉쇄 조치, 임시 조치",
+    "definitionEn": "An immediate action to limit the effect of a problem until it is fixed.",
+    "example": { "en": "What containment action did you take before the fix?", "ko": "수정 전에 어떤 임시 조치를 했습니까?" },
+    "collocations": ["immediate containment action"]
+  },
+  {
+    "id": "T-A1-019", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "action plan", "ipa": "/ˈækʃən plæn/", "stressHint": "AC-tion PLAN",
+    "meaningKo": "조치 계획",
+    "definitionEn": "A list of actions with owners and due dates.",
+    "example": { "en": "Each action in the plan should have an owner and a due date.", "ko": "조치 계획의 각 항목에는 담당자와 기한이 있어야 합니다." },
+    "collocations": ["agree on an action plan", "action owner", "action item"]
+  },
+  {
+    "id": "T-A1-020", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "due date", "ipa": "/ˈduː deɪt/", "stressHint": "DUE date",
+    "meaningKo": "기한, 마감일",
+    "definitionEn": "The date by which something must be done.",
+    "example": { "en": "What is the due date for closing this finding?", "ko": "이 지적사항을 종결하는 기한은 언제입니까?" },
+    "collocations": ["set a due date", "overdue", "meet the due date"],
+    "pitfall": "미국식 due는 '두'에 가깝게 /duː/. 영국식은 '듀'."
+  },
+  {
+    "id": "T-A1-021", "track": "audit", "domain": "general", "category": "A1", "priority": 3,
+    "term": "checklist", "ipa": "/ˈtʃeklɪst/", "stressHint": "CHECK-list",
+    "meaningKo": "체크리스트, 점검표",
+    "definitionEn": "A list of items to check during an audit or review.",
+    "example": { "en": "We will follow this checklist during the review.", "ko": "리뷰 동안 이 체크리스트를 따르겠습니다." },
+    "collocations": ["review checklist", "audit checklist"]
+  },
+  {
+    "id": "T-A1-022", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "agenda", "ipa": "/əˈdʒendə/", "stressHint": "a-GEN-da",
+    "meaningKo": "일정표, 안건",
+    "definitionEn": "A list of topics and times for a meeting.",
+    "example": { "en": "Let me briefly go through today's agenda.", "ko": "오늘 일정을 간단히 살펴보겠습니다." },
+    "collocations": ["go through the agenda", "next item on the agenda"],
+    "pitfall": "'아젠다'가 아니라 '어젠다', 강세는 GEN."
+  },
+  {
+    "id": "T-A1-023", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "interview", "ipa": "/ˈɪntərvjuː/", "stressHint": "IN-ter-view",
+    "meaningKo": "인터뷰, 면담",
+    "definitionEn": "A structured conversation to collect information from a person.",
+    "example": { "en": "After lunch, we would like to interview the software team.", "ko": "점심 후에 소프트웨어 팀을 인터뷰하고 싶습니다." },
+    "collocations": ["conduct an interview", "interview the engineers"]
+  },
+  {
+    "id": "T-A1-024", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "record", "ipa": "/ˈrekərd/ (n) · /rɪˈkɔːrd/ (v)", "stressHint": "REC-ord (명사) / re-CORD (동사)",
+    "meaningKo": "기록 (명사) / 기록하다 (동사)",
+    "definitionEn": "A document that shows what was done (noun); to write down (verb).",
+    "example": { "en": "Where are the records of the safety reviews?", "ko": "안전 리뷰 기록은 어디에 있습니까?" },
+    "collocations": ["keep records", "review records", "record the result"],
+    "pitfall": "명사는 앞, 동사는 뒤에 강세 (present, object, project도 같은 규칙)."
+  },
+  {
+    "id": "T-A1-025", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "procedure", "ipa": "/prəˈsiːdʒər/", "stressHint": "pro-CEE-dure",
+    "meaningKo": "절차, 절차서",
+    "definitionEn": "A documented way of carrying out an activity.",
+    "example": { "en": "Is there a procedure for handling safety-related changes?", "ko": "안전 관련 변경을 처리하는 절차가 있습니까?" },
+    "collocations": ["follow the procedure", "documented procedure"]
+  },
+  {
+    "id": "T-A1-026", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "process", "ipa": "/ˈprɑːses/", "stressHint": "PRO-cess",
+    "meaningKo": "프로세스, 공정",
+    "definitionEn": "A set of activities that turns inputs into outputs.",
+    "example": { "en": "Can you explain your requirements management process?", "ko": "요구사항 관리 프로세스를 설명해 주시겠어요?" },
+    "collocations": ["process description", "process owner", "follow the process"],
+    "pitfall": "미국식은 '프라세스', 영국식은 '프로세스'."
+  },
+  {
+    "id": "T-A1-027", "track": "audit", "domain": "general", "category": "A1", "priority": 3,
+    "term": "work instruction", "ipa": "/wɜːrk ɪnˈstrʌkʃən/", "stressHint": "WORK in-STRUC-tion",
+    "meaningKo": "작업 지침서",
+    "definitionEn": "A detailed document that explains how to do one specific task.",
+    "example": { "en": "Is there a work instruction for this tool?", "ko": "이 툴에 대한 작업 지침서가 있습니까?" },
+    "collocations": ["follow the work instruction"]
+  },
+  {
+    "id": "T-A1-028", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "gap", "ipa": "/ɡæp/", "stressHint": "GAP",
+    "meaningKo": "차이, 미흡한 부분",
+    "definitionEn": "A difference between what is required and what is actually done.",
+    "example": { "en": "We identified a gap between the plan and the actual activities.", "ko": "계획과 실제 활동 사이의 차이를 발견했습니다." },
+    "collocations": ["gap analysis", "close the gap", "identify a gap"]
+  },
+  {
+    "id": "T-A1-029", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "baseline", "ipa": "/ˈbeɪslaɪn/", "stressHint": "BASE-line",
+    "meaningKo": "베이스라인, 기준 버전",
+    "definitionEn": "An approved, frozen version of work products used as a reference.",
+    "example": { "en": "Which baseline was used for the release?", "ko": "릴리스에 어떤 베이스라인을 사용했습니까?" },
+    "collocations": ["create a baseline", "baseline the documents", "release baseline"]
+  },
+  {
+    "id": "T-A1-030", "track": "audit", "domain": "general", "category": "A1", "priority": 1,
+    "term": "review", "ipa": "/rɪˈvjuː/", "stressHint": "re-VIEW",
+    "meaningKo": "검토, 리뷰",
+    "definitionEn": "A careful examination of a work product to find problems.",
+    "example": { "en": "Who reviewed the technical safety concept?", "ko": "기술 안전 컨셉은 누가 리뷰했습니까?" },
+    "collocations": ["peer review", "review record", "review comment", "under review"]
+  },
+  {
+    "id": "T-A1-031", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "approval", "ipa": "/əˈpruːvəl/", "stressHint": "ap-PROV-al",
+    "meaningKo": "승인",
+    "definitionEn": "Formal agreement that something is acceptable.",
+    "example": { "en": "Who has the authority for the final approval?", "ko": "최종 승인 권한은 누구에게 있습니까?" },
+    "collocations": ["get approval", "approval record", "pending approval"]
+  },
+  {
+    "id": "T-A1-032", "track": "audit", "domain": "general", "category": "A1", "priority": 3,
+    "term": "sign-off", "ipa": "/ˈsaɪn ɔːf/", "stressHint": "SIGN-off",
+    "meaningKo": "최종 서명·승인",
+    "definitionEn": "A formal confirmation, usually with a signature, that work is complete.",
+    "example": { "en": "The document has no sign-off from the safety manager.", "ko": "이 문서에는 안전 관리자의 서명 승인이 없습니다." },
+    "collocations": ["sign off on the document", "formal sign-off"]
+  },
+  {
+    "id": "T-A1-033", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "audit report", "ipa": "/ˈɔːdɪt rɪˈpɔːrt/", "stressHint": "AU-dit re-PORT",
+    "meaningKo": "점검 보고서",
+    "definitionEn": "The document that summarizes the audit results and findings.",
+    "example": { "en": "You will receive the audit report within two weeks.", "ko": "점검 보고서는 2주 안에 받으실 겁니다." },
+    "collocations": ["issue the audit report", "draft report"]
+  },
+  {
+    "id": "T-A1-034", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "follow-up", "ipa": "/ˈfɑːloʊ ʌp/", "stressHint": "FOL-low-up",
+    "meaningKo": "후속 조치, 후속 점검",
+    "definitionEn": "An action or audit that checks whether earlier issues were resolved.",
+    "example": { "en": "We will check the corrective actions in a follow-up audit.", "ko": "시정 조치는 후속 점검에서 확인하겠습니다." },
+    "collocations": ["follow-up audit", "follow up on the findings"],
+    "pitfall": "명사·형용사는 follow-up(하이픈), 동사는 follow up(띄어쓰기)."
+  },
+  {
+    "id": "T-A1-035", "track": "audit", "domain": "general", "category": "A1", "priority": 2,
+    "term": "effectiveness", "ipa": "/ɪˈfektɪvnəs/", "stressHint": "ef-FEC-tive-ness",
+    "meaningKo": "유효성, 효과성",
+    "definitionEn": "How well an action actually achieves its intended result.",
+    "example": { "en": "How do you check the effectiveness of the corrective actions?", "ko": "시정 조치의 유효성은 어떻게 확인합니까?" },
+    "collocations": ["verify effectiveness", "effectiveness check"]
+  }
+]

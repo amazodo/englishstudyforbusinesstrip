@@ -1,0 +1,168 @@
+[
+  {
+    "id": "T-A12-001", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "substantiate", "ipa": "/səbˈstænʃieɪt/", "stressHint": "sub-STAN-ti-ate",
+    "meaningKo": "(증거로) 입증하다, 뒷받침하다",
+    "definitionEn": "To provide evidence that a statement is true.",
+    "example": { "en": "Can you substantiate this with a test report?", "ko": "이것을 시험 보고서로 입증할 수 있습니까?" },
+    "collocations": ["substantiate a claim", "substantiated by evidence"],
+    "mnemonic": "substance(실체)를 보여 준다 → 주장에 실체를 붙이다."
+  },
+  {
+    "id": "T-A12-002", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "specify", "ipa": "/ˈspesɪfaɪ/", "stressHint": "SPEC-i-fy",
+    "meaningKo": "구체적으로 명시하다",
+    "definitionEn": "To state something clearly and in detail.",
+    "example": { "en": "Could you specify which version was tested?", "ko": "어떤 버전을 시험했는지 구체적으로 말씀해 주시겠어요?" },
+    "collocations": ["specify the requirement", "as specified in"]
+  },
+  {
+    "id": "T-A12-003", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "inquire", "ipa": "/ɪnˈkwaɪər/", "stressHint": "in-QUIRE",
+    "meaningKo": "문의하다, 묻다 (정중한 표현)",
+    "definitionEn": "To ask for information formally.",
+    "example": { "en": "I would like to inquire about your tool qualification process.", "ko": "툴 검증 프로세스에 대해 문의드리고 싶습니다." },
+    "collocations": ["inquire about", "inquiry"],
+    "pitfall": "ask보다 격식 있는 표현. 영국식 철자는 enquire."
+  },
+  {
+    "id": "T-A12-004", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "confirm", "ipa": "/kənˈfɜːrm/", "stressHint": "con-FIRM",
+    "meaningKo": "확인해 주다, 확정하다",
+    "definitionEn": "To state that something is true or correct.",
+    "example": { "en": "Can you confirm that this is the latest version?", "ko": "이것이 최신 버전인지 확인해 주실 수 있습니까?" },
+    "collocations": ["confirm that", "I can confirm", "confirmation"]
+  },
+  {
+    "id": "T-A12-005", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "acknowledge", "ipa": "/əkˈnɑːlɪdʒ/", "stressHint": "ac-KNOWL-edge",
+    "meaningKo": "인정하다, (받았음을) 확인하다",
+    "definitionEn": "To accept or admit that something is true or exists.",
+    "example": { "en": "We acknowledge the gap and will prepare an action plan.", "ko": "미흡한 부분을 인정하며 조치 계획을 준비하겠습니다." },
+    "collocations": ["acknowledge the finding", "acknowledge receipt"],
+    "pitfall": "k는 묵음 → '액날리지'."
+  },
+  {
+    "id": "T-A12-006", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "concede", "ipa": "/kənˈsiːd/", "stressHint": "con-CEDE",
+    "meaningKo": "(마지못해) 인정하다, 양보하다",
+    "definitionEn": "To admit that something is true after first denying it.",
+    "example": { "en": "They conceded that the review was not documented.", "ko": "그들은 리뷰가 문서화되지 않았다는 것을 인정했습니다." },
+    "collocations": ["concede a point", "concession"]
+  },
+  {
+    "id": "T-A12-007", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "refer to", "ipa": "/rɪˈfɜːr tuː/", "stressHint": "re-FER to",
+    "meaningKo": "참조하다, 언급하다",
+    "definitionEn": "To look at or mention a document or source.",
+    "example": { "en": "Please refer to section 4.2 of the safety plan.", "ko": "안전 계획 4.2절을 참조해 주세요." },
+    "collocations": ["refer to the document", "with reference to"]
+  },
+  {
+    "id": "T-A12-008", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "indicate", "ipa": "/ˈɪndɪkeɪt/", "stressHint": "IN-di-cate",
+    "meaningKo": "나타내다, 가리키다",
+    "definitionEn": "To show or suggest something.",
+    "example": { "en": "The records indicate that the review was done after the release.", "ko": "기록을 보면 리뷰가 릴리스 이후에 수행된 것으로 보입니다." },
+    "collocations": ["indicate that", "as indicated"]
+  },
+  {
+    "id": "T-A12-009", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "cross-check", "ipa": "/ˈkrɔːs tʃek/", "stressHint": "CROSS-check",
+    "meaningKo": "대조 확인하다",
+    "definitionEn": "To check information by comparing it with another source.",
+    "example": { "en": "Let me cross-check this with the test specification.", "ko": "이것을 시험 사양서와 대조해 보겠습니다." },
+    "collocations": ["cross-check against", "double-check"]
+  },
+  {
+    "id": "T-A12-010", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "outline", "ipa": "/ˈaʊtlaɪn/", "stressHint": "OUT-line",
+    "meaningKo": "개요를 설명하다",
+    "definitionEn": "To describe the main points briefly.",
+    "example": { "en": "Could you briefly outline your development process?", "ko": "개발 프로세스를 간단히 설명해 주시겠어요?" },
+    "collocations": ["briefly outline", "give an outline of"]
+  },
+  {
+    "id": "T-A12-011", "track": "audit", "domain": "general", "category": "A12", "priority": 3,
+    "term": "retrieve", "ipa": "/rɪˈtriːv/", "stressHint": "re-TRIEVE",
+    "meaningKo": "(자료를) 찾아오다, 불러오다",
+    "definitionEn": "To find and bring back information or a document.",
+    "example": { "en": "Can you retrieve the review records from the tool?", "ko": "툴에서 리뷰 기록을 찾아 주실 수 있나요?" },
+    "collocations": ["retrieve the data", "retrieve a file"]
+  },
+  {
+    "id": "T-A12-012", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "ensure", "ipa": "/ɪnˈʃʊr/", "stressHint": "en-SURE",
+    "meaningKo": "보장하다, 확실히 하다",
+    "definitionEn": "To make certain that something happens.",
+    "example": { "en": "How do you ensure that all requirements are tested?", "ko": "모든 요구사항이 시험되는 것을 어떻게 보장합니까?" },
+    "collocations": ["ensure that", "ensure consistency"],
+    "pitfall": "insure(보험 들다), assure(안심시키다)와 구분."
+  },
+  {
+    "id": "T-A12-013", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "address", "ipa": "/əˈdres/", "stressHint": "ad-DRESS",
+    "meaningKo": "(문제를) 다루다, 해결하다",
+    "definitionEn": "To deal with a problem or question.",
+    "example": { "en": "How will you address this finding?", "ko": "이 지적사항을 어떻게 해결하실 겁니까?" },
+    "collocations": ["address an issue", "address a finding", "be addressed"],
+    "pitfall": "'주소'로만 알면 오해한다. 점검에서는 '다루다/해결하다'로 매우 자주 쓴다."
+  },
+  {
+    "id": "T-A12-014", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "be aware of", "ipa": "/bi əˈwer əv/", "stressHint": "be a-WARE of",
+    "meaningKo": "~을 알고 있다",
+    "definitionEn": "To know that something exists or is happening.",
+    "example": { "en": "Are you aware of any open safety issues?", "ko": "미해결 안전 이슈가 있는지 알고 계십니까?" },
+    "collocations": ["be aware of the risk", "awareness"]
+  },
+  {
+    "id": "T-A12-015", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "to the best of my knowledge", "ipa": "/tə ðə best əv maɪ ˈnɑːlɪdʒ/", "stressHint": "to the BEST of my KNOWL-edge",
+    "meaningKo": "제가 알기로는",
+    "definitionEn": "Used to say that something is true as far as you know.",
+    "example": { "en": "To the best of my knowledge, all findings from the last audit are closed.", "ko": "제가 알기로는 지난 점검의 지적사항은 모두 종결되었습니다." },
+    "collocations": ["as far as I know"]
+  },
+  {
+    "id": "T-A12-016", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "in accordance with", "ipa": "/ɪn əˈkɔːrdəns wɪð/", "stressHint": "in ac-CORD-ance with",
+    "meaningKo": "~에 따라",
+    "definitionEn": "Following a rule, standard or plan.",
+    "example": { "en": "Was the test performed in accordance with the test plan?", "ko": "시험은 시험 계획에 따라 수행되었습니까?" },
+    "collocations": ["in accordance with ISO 26262", "according to"]
+  },
+  {
+    "id": "T-A12-017", "track": "audit", "domain": "general", "category": "A12", "priority": 1,
+    "term": "with regard to", "ipa": "/wɪð rɪˈɡɑːrd tuː/", "stressHint": "with re-GARD to",
+    "meaningKo": "~에 관하여",
+    "definitionEn": "Concerning or about a particular topic.",
+    "example": { "en": "With regard to configuration management, we have two questions.", "ko": "형상 관리에 관해서 두 가지 질문이 있습니다." },
+    "collocations": ["regarding", "concerning", "as for"]
+  },
+  {
+    "id": "T-A12-018", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "assume", "ipa": "/əˈsuːm/", "stressHint": "as-SUME",
+    "meaningKo": "가정하다, 추정하다",
+    "definitionEn": "To think something is true without proof.",
+    "example": { "en": "Can I assume that the same process applies to all projects?", "ko": "모든 프로젝트에 같은 프로세스가 적용된다고 봐도 됩니까?" },
+    "collocations": ["assumption", "assumption of use"],
+    "pitfall": "미국식은 '어숨', 영국식은 '어슘'."
+  },
+  {
+    "id": "T-A12-019", "track": "audit", "domain": "general", "category": "A12", "priority": 3,
+    "term": "approximately", "ipa": "/əˈprɑːksɪmətli/", "stressHint": "ap-PROX-i-mate-ly",
+    "meaningKo": "대략",
+    "definitionEn": "Close to an exact number but not exactly.",
+    "example": { "en": "Approximately how many requirements are in this specification?", "ko": "이 사양서에는 대략 몇 개의 요구사항이 있습니까?" },
+    "collocations": ["roughly", "about"]
+  },
+  {
+    "id": "T-A12-020", "track": "audit", "domain": "general", "category": "A12", "priority": 2,
+    "term": "pending", "ipa": "/ˈpendɪŋ/", "stressHint": "PEND-ing",
+    "meaningKo": "보류 중인, 미결의",
+    "definitionEn": "Not yet decided or completed.",
+    "example": { "en": "The approval is still pending.", "ko": "승인은 아직 보류 중입니다." },
+    "collocations": ["pending approval", "pending items"]
+  }
+]

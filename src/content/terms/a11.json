@@ -1,0 +1,59 @@
+[
+  {
+    "id": "T-A11-001", "track": "audit", "domain": "sotif", "category": "A11", "priority": 2,
+    "term": "SOTIF", "abbreviation": "SOTIF", "fullForm": "Safety Of The Intended Functionality",
+    "ipa": "/ˈsoʊtɪf/", "stressHint": "SO-tif",
+    "meaningKo": "의도된 기능의 안전성 (ISO 21448)",
+    "definitionEn": "Absence of unreasonable risk due to functional insufficiencies of the intended function, without any fault.",
+    "standardRef": "ISO 21448:2022",
+    "example": { "en": "How is SOTIF handled for the camera-based emergency braking?", "ko": "카메라 기반 긴급 제동에 대해 SOTIF는 어떻게 다룹니까?" },
+    "collocations": ["ISO 21448", "SOTIF analysis"],
+    "confusableIds": ["C-014"]
+  },
+  {
+    "id": "T-A11-002", "track": "audit", "domain": "sotif", "category": "A11", "priority": 2,
+    "term": "functional insufficiency", "ipa": "/ˈfʌŋkʃənəl ˌɪnsəˈfɪʃənsi/", "stressHint": "FUNC-tion-al in-suf-FI-cien-cy",
+    "meaningKo": "기능 불충분성 (사양 불충분 또는 성능 한계)",
+    "definitionEn": "An insufficiency of the specification or a performance limitation of the function.",
+    "standardRef": "ISO 21448:2022",
+    "example": { "en": "Which functional insufficiencies of the radar did you identify?", "ko": "레이더의 어떤 기능 불충분성을 식별했습니까?" },
+    "collocations": ["performance insufficiency", "insufficiency of specification"]
+  },
+  {
+    "id": "T-A11-003", "track": "audit", "domain": "sotif", "category": "A11", "priority": 2,
+    "term": "triggering condition", "ipa": "/ˈtrɪɡərɪŋ kənˈdɪʃən/", "stressHint": "TRIG-ger-ing con-DI-tion",
+    "meaningKo": "유발 조건 (불충분성을 위험한 동작으로 이어지게 하는 상황)",
+    "definitionEn": "A specific condition, such as heavy rain or glare, that triggers hazardous behavior.",
+    "standardRef": "ISO 21448:2022",
+    "example": { "en": "Is low sun glare considered as a triggering condition?", "ko": "낮게 비치는 햇빛 눈부심을 유발 조건으로 고려했습니까?" },
+    "collocations": ["identify triggering conditions"]
+  },
+  {
+    "id": "T-A11-004", "track": "audit", "domain": "sotif", "category": "A11", "priority": 2,
+    "term": "unknown unsafe scenario", "ipa": "/ʌnˈnoʊn ʌnˈseɪf səˈnerioʊ/", "stressHint": "un-KNOWN un-SAFE sce-NAR-i-o",
+    "meaningKo": "미지의 위험 시나리오 (Area 3)",
+    "definitionEn": "A hazardous scenario that has not yet been identified.",
+    "standardRef": "ISO 21448:2022",
+    "example": { "en": "How do you reduce the unknown unsafe scenarios?", "ko": "미지의 위험 시나리오를 어떻게 줄입니까?" },
+    "collocations": ["known unsafe scenario", "scenario-based testing"],
+    "mnemonic": "목표: Area 2(알려진 위험)와 Area 3(모르는 위험)을 줄이고 Area 1(알려진 안전)을 늘린다."
+  },
+  {
+    "id": "T-A11-005", "track": "audit", "domain": "sotif", "category": "A11", "priority": 2,
+    "term": "ODD", "abbreviation": "ODD", "fullForm": "Operational Design Domain",
+    "ipa": "/ˌoʊ diː ˈdiː/", "stressHint": "O-D-D",
+    "meaningKo": "운행 설계 영역 (기능이 동작하도록 설계된 조건)",
+    "definitionEn": "The conditions, such as road type, speed and weather, under which a function is designed to work.",
+    "example": { "en": "What happens when the vehicle leaves the ODD?", "ko": "차량이 ODD를 벗어나면 어떻게 됩니까?" },
+    "collocations": ["define the ODD", "ODD boundary"]
+  },
+  {
+    "id": "T-A11-006", "track": "audit", "domain": "sotif", "category": "A11", "priority": 3,
+    "term": "validation target", "ipa": "/ˌvælɪˈdeɪʃən ˈtɑːrɡɪt/", "stressHint": "val-i-DA-tion TAR-get",
+    "meaningKo": "타당성 확인 목표 (예: 필요한 주행 거리)",
+    "definitionEn": "A value, such as driving kilometers, used to show that the acceptance criteria are met.",
+    "standardRef": "ISO 21448:2022",
+    "example": { "en": "How did you derive the validation target of one million kilometers?", "ko": "100만 km라는 타당성 확인 목표는 어떻게 도출했습니까?" },
+    "collocations": ["acceptance criteria", "residual risk"]
+  }
+]

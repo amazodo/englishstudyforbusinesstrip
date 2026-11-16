@@ -1,0 +1,251 @@
+[
+  {
+    "id": "T-A3-002",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "item definition",
+    "ipa": "/ˈaɪtəm ˌdefɪˈnɪʃən/",
+    "stressHint": "I-tem def-i-NI-tion",
+    "meaningKo": "아이템 정의",
+    "definitionEn": "A description of the item's functions, interfaces, environment and known hazards.",
+    "standardRef": "ISO 26262-3:2018 Clause 5",
+    "example": {
+      "en": "Does the item definition include the interfaces to other vehicle systems?",
+      "ko": "아이템 정의에 다른 차량 시스템과의 인터페이스가 포함되어 있습니까?"
+    },
+    "collocations": [
+      "update the item definition",
+      "functional description"
+    ]
+  },
+  {
+    "id": "T-A3-004",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "hazard",
+    "ipa": "/ˈhæzərd/",
+    "stressHint": "HAZ-ard",
+    "meaningKo": "위험원 (해를 끼칠 수 있는 원인)",
+    "definitionEn": "A potential source of harm caused by malfunctioning behavior of the item.",
+    "standardRef": "ISO 26262-1:2018 (용어 정의)",
+    "example": {
+      "en": "How did you identify the hazards at vehicle level?",
+      "ko": "차량 수준의 위험원을 어떻게 식별했습니까?"
+    },
+    "collocations": [
+      "identify hazards",
+      "hazard analysis",
+      "hazardous"
+    ],
+    "confusableIds": [
+      "C-004"
+    ]
+  },
+  {
+    "id": "T-A3-007",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "HARA",
+    "abbreviation": "HARA",
+    "fullForm": "Hazard Analysis and Risk Assessment",
+    "ipa": "/ˈhɑːrə/",
+    "stressHint": "HA-ra (또는 H-A-R-A)",
+    "meaningKo": "위험원 분석 및 위험 평가",
+    "definitionEn": "The method to identify hazards, classify hazardous events and assign ASILs and safety goals.",
+    "standardRef": "ISO 26262-3:2018 Clause 6",
+    "example": {
+      "en": "When was the HARA last updated?",
+      "ko": "HARA는 마지막으로 언제 업데이트되었습니까?"
+    },
+    "collocations": [
+      "perform the HARA",
+      "HARA review",
+      "HARA workshop"
+    ]
+  },
+  {
+    "id": "T-A3-008",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "severity",
+    "ipa": "/sɪˈverəti/",
+    "stressHint": "se-VER-i-ty",
+    "meaningKo": "심각도 (S0~S3)",
+    "definitionEn": "An estimate of how much harm could result to people.",
+    "standardRef": "ISO 26262-3:2018 Clause 6",
+    "example": {
+      "en": "Why was the severity rated S2 instead of S3?",
+      "ko": "심각도를 S3가 아니라 S2로 평가한 이유는 무엇입니까?"
+    },
+    "collocations": [
+      "severity class",
+      "rate the severity"
+    ],
+    "mnemonic": "severe(심한) + ity. S/E/C 순서로 외우기: '얼마나 다치나(S) · 얼마나 자주(E) · 피할 수 있나(C)'."
+  },
+  {
+    "id": "T-A3-009",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "exposure",
+    "ipa": "/ɪkˈspoʊʒər/",
+    "stressHint": "ex-PO-sure",
+    "meaningKo": "노출도 (E0~E4)",
+    "definitionEn": "How often or how long the vehicle is in the operational situation.",
+    "standardRef": "ISO 26262-3:2018 Clause 6",
+    "example": {
+      "en": "What data did you use to justify the exposure class E4?",
+      "ko": "노출도 E4의 근거로 어떤 데이터를 사용했습니까?"
+    },
+    "collocations": [
+      "exposure class",
+      "probability of exposure"
+    ]
+  },
+  {
+    "id": "T-A3-010",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "controllability",
+    "ipa": "/kənˌtroʊləˈbɪləti/",
+    "stressHint": "con-trol-la-BIL-i-ty",
+    "meaningKo": "통제 가능성 (C0~C3)",
+    "definitionEn": "The ability of the driver or others to avoid the harm.",
+    "standardRef": "ISO 26262-3:2018 Clause 6",
+    "example": {
+      "en": "How did you determine the controllability class for this hazardous event?",
+      "ko": "이 위험 사건의 통제 가능성 등급은 어떻게 결정했습니까?"
+    },
+    "collocations": [
+      "controllability class",
+      "assess controllability"
+    ],
+    "mnemonic": "control + able + ity = 통제할 수 있는 정도.",
+    "pitfall": "강세는 BIL. '컨트롤러빌리티'처럼 평평하게 읽지 않기."
+  },
+  {
+    "id": "T-A3-011",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "ASIL",
+    "abbreviation": "ASIL",
+    "fullForm": "Automotive Safety Integrity Level",
+    "ipa": "/ˈæsɪl/",
+    "stressHint": "A-sil",
+    "meaningKo": "자동차 안전 무결성 등급 (A~D)",
+    "definitionEn": "One of four levels (A to D) that specify the required safety measures; D is the highest.",
+    "standardRef": "ISO 26262-3:2018 Clause 6",
+    "example": {
+      "en": "This safety goal is rated ASIL D.",
+      "ko": "이 안전 목표는 ASIL D로 평가되었습니다."
+    },
+    "collocations": [
+      "ASIL rating",
+      "ASIL D requirement",
+      "inherit the ASIL"
+    ],
+    "pitfall": "보통 '애실'처럼 한 단어로 읽는다. 'ASIL D'는 '애실 디'."
+  },
+  {
+    "id": "T-A3-013",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "safety goal",
+    "ipa": "/ˈseɪfti ɡoʊl/",
+    "stressHint": "SAFE-ty GOAL",
+    "meaningKo": "안전 목표 (최상위 안전 요구사항)",
+    "definitionEn": "A top-level safety requirement resulting from the HARA.",
+    "standardRef": "ISO 26262-3:2018 Clause 6",
+    "example": {
+      "en": "Is every safety goal traceable to at least one hazardous event?",
+      "ko": "모든 안전 목표가 최소 하나의 위험 사건과 연결됩니까?"
+    },
+    "collocations": [
+      "violate a safety goal",
+      "safety goal violation",
+      "top-level safety requirement"
+    ]
+  },
+  {
+    "id": "T-A3-014",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "safe state",
+    "ipa": "/seɪf steɪt/",
+    "stressHint": "SAFE STATE",
+    "meaningKo": "안전 상태",
+    "definitionEn": "An operating mode without an unreasonable level of risk, reached after a failure.",
+    "standardRef": "ISO 26262-1:2018 (용어 정의)",
+    "example": {
+      "en": "What is the safe state when the sensor fails?",
+      "ko": "센서가 고장 나면 안전 상태는 무엇입니까?"
+    },
+    "collocations": [
+      "transition to the safe state",
+      "maintain the safe state"
+    ]
+  },
+  {
+    "id": "T-A3-015",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "FTTI",
+    "abbreviation": "FTTI",
+    "fullForm": "Fault Tolerant Time Interval",
+    "ipa": "/ˌef tiː tiː ˈaɪ/",
+    "stressHint": "F-T-T-I",
+    "meaningKo": "고장 허용 시간 간격",
+    "definitionEn": "The minimum time from a fault to a possible hazardous event if safety mechanisms do not act.",
+    "standardRef": "ISO 26262-1:2018 (용어 정의)",
+    "example": {
+      "en": "How did you derive the FTTI of 100 milliseconds?",
+      "ko": "FTTI 100밀리초는 어떻게 도출했습니까?"
+    },
+    "collocations": [
+      "within the FTTI",
+      "fault handling time interval"
+    ]
+  },
+  {
+    "id": "T-A3-016",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A3",
+    "priority": 1,
+    "term": "functional safety concept",
+    "abbreviation": "FSC",
+    "ipa": "/ˈfʌŋkʃənəl ˈseɪfti ˈkɑːnsept/",
+    "stressHint": "FUNC-tion-al SAFE-ty CON-cept",
+    "meaningKo": "기능 안전 컨셉 (FSC)",
+    "definitionEn": "The functional safety requirements and their allocation to architectural elements.",
+    "standardRef": "ISO 26262-3:2018 Clause 7",
+    "example": {
+      "en": "Who reviewed the functional safety concept?",
+      "ko": "기능 안전 컨셉은 누가 리뷰했습니까?"
+    },
+    "collocations": [
+      "derive the FSC",
+      "FSC review"
+    ]
+  }
+]

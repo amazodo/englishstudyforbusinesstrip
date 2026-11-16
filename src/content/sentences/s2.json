@@ -1,0 +1,311 @@
+[
+  {
+    "id": "S-S2-001",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Could you show me the evidence for this?",
+    "ko": "이것에 대한 증거를 보여주시겠어요?",
+    "keyChunks": [
+      "show me the evidence for"
+    ],
+    "relatedTermIds": [
+      "T-A1-009"
+    ],
+    "alternatives": {
+      "polite": "Would it be possible to see the evidence for this?"
+    }
+  },
+  {
+    "id": "S-S2-002",
+    "track": "audit",
+    "domain": "iso26262",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Could you share the latest version of the safety plan on the screen?",
+    "ko": "안전 계획 최신 버전을 화면에 띄워 주시겠어요?",
+    "keyChunks": [
+      "share ... on the screen",
+      "the latest version of"
+    ],
+    "relatedTermIds": [
+      "T-A2-003"
+    ]
+  },
+  {
+    "id": "S-S2-003",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Where can I find the review records for this document?",
+    "ko": "이 문서의 리뷰 기록은 어디에서 볼 수 있습니까?",
+    "keyChunks": [
+      "Where can I find"
+    ],
+    "relatedTermIds": [
+      "T-A1-024",
+      "T-A1-030"
+    ]
+  },
+  {
+    "id": "S-S2-004",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Is this document approved and under configuration control?",
+    "ko": "이 문서는 승인되었고 형상 관리 하에 있습니까?",
+    "keyChunks": [
+      "under configuration control"
+    ],
+    "relatedTermIds": [
+      "T-A1-031"
+    ]
+  },
+  {
+    "id": "S-S2-005",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Which version of the document is this?",
+    "ko": "이 문서는 어떤 버전입니까?",
+    "keyChunks": [
+      "Which version of"
+    ]
+  },
+  {
+    "id": "S-S2-006",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Could you open the requirements management tool and show me the traceability?",
+    "ko": "요구사항 관리 툴을 열어서 추적성을 보여주시겠어요?",
+    "keyChunks": [
+      "show me the traceability"
+    ]
+  },
+  {
+    "id": "S-S2-007",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Could you pick one safety requirement and show me how it was verified?",
+    "ko": "안전 요구사항 하나를 골라서 어떻게 검증됐는지 보여주시겠어요?",
+    "keyChunks": [
+      "pick one",
+      "how it was verified"
+    ]
+  },
+  {
+    "id": "S-S2-008",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Let's take a sample. I would like to see requirement number 25.",
+    "ko": "샘플을 하나 보겠습니다. 요구사항 25번을 보고 싶습니다.",
+    "keyChunks": [
+      "Let's take a sample"
+    ],
+    "relatedTermIds": [
+      "T-A1-014"
+    ]
+  },
+  {
+    "id": "S-S2-009",
+    "track": "audit",
+    "domain": "iso26262",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Can you show me the confirmation review report for the HARA?",
+    "ko": "HARA에 대한 확인 리뷰 보고서를 보여주시겠어요?",
+    "keyChunks": [
+      "confirmation review report"
+    ],
+    "relatedTermIds": [
+      "T-A2-010",
+      "T-A3-007"
+    ]
+  },
+  {
+    "id": "S-S2-010",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Who approved this document, and when?",
+    "ko": "이 문서는 누가, 언제 승인했습니까?",
+    "keyChunks": [
+      "Who approved ..., and when?"
+    ]
+  },
+  {
+    "id": "S-S2-011",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Is there a record of the review comments and how they were resolved?",
+    "ko": "리뷰 의견과 그것이 어떻게 처리되었는지에 대한 기록이 있습니까?",
+    "keyChunks": [
+      "review comments",
+      "how they were resolved"
+    ]
+  },
+  {
+    "id": "S-S2-012",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Could you send us a copy of this document after the audit?",
+    "ko": "점검 후에 이 문서 사본을 보내주실 수 있나요?",
+    "keyChunks": [
+      "send us a copy of"
+    ]
+  },
+  {
+    "id": "S-S2-013",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "If the document is not available now, you can provide it by tomorrow morning.",
+    "ko": "지금 문서가 없으면 내일 아침까지 제출하셔도 됩니다.",
+    "keyChunks": [
+      "not available now",
+      "by tomorrow morning"
+    ]
+  },
+  {
+    "id": "S-S2-014",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Could you scroll down a little, please?",
+    "ko": "조금 아래로 스크롤해 주시겠어요?",
+    "keyChunks": [
+      "scroll down a little"
+    ],
+    "usageNote": "화면 공유로 문서를 볼 때 자주 쓰는 표현. 반대는 scroll up."
+  },
+  {
+    "id": "S-S2-015",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Could you zoom in on this table?",
+    "ko": "이 표를 확대해 주시겠어요?",
+    "keyChunks": [
+      "zoom in on"
+    ]
+  },
+  {
+    "id": "S-S2-016",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Can we go back to the previous page?",
+    "ko": "이전 페이지로 돌아갈 수 있을까요?",
+    "keyChunks": [
+      "go back to the previous page"
+    ]
+  },
+  {
+    "id": "S-S2-017",
+    "track": "audit",
+    "domain": "iso26262",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "Please show me the evidence that the impact analysis was done for this change.",
+    "ko": "이 변경에 대해 영향 분석을 수행했다는 증거를 보여주세요.",
+    "keyChunks": [
+      "the evidence that",
+      "impact analysis was done"
+    ],
+    "relatedTermIds": [
+      "T-A2-015"
+    ]
+  },
+  {
+    "id": "S-S2-018",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Do you have training records for the engineers on this project?",
+    "ko": "이 프로젝트 엔지니어들의 교육 기록이 있습니까?",
+    "keyChunks": [
+      "training records"
+    ],
+    "relatedTermIds": [
+      "T-A2-017"
+    ]
+  },
+  {
+    "id": "S-S2-019",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Is this the released baseline or a working version?",
+    "ko": "이것은 릴리스된 베이스라인입니까, 작업 중인 버전입니까?",
+    "keyChunks": [
+      "released baseline",
+      "working version"
+    ],
+    "relatedTermIds": [
+      "T-A1-029"
+    ]
+  },
+  {
+    "id": "S-S2-020",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 1,
+    "en": "A verbal explanation is helpful, but we need documented evidence.",
+    "ko": "말로 하는 설명도 도움이 되지만, 문서화된 증거가 필요합니다.",
+    "keyChunks": [
+      "verbal explanation",
+      "documented evidence"
+    ],
+    "relatedTermIds": [
+      "T-A1-010"
+    ],
+    "usageNote": "증거 없이 설명만 하는 경우에 정중하게 증거를 요구할 때."
+  },
+  {
+    "id": "S-S2-021",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 3,
+    "en": "Could you print this page for us?",
+    "ko": "이 페이지를 출력해 주실 수 있나요?",
+    "keyChunks": [
+      "print this page"
+    ]
+  },
+  {
+    "id": "S-S2-022",
+    "track": "audit",
+    "domain": "general",
+    "scenario": "S2",
+    "priority": 2,
+    "en": "Let me take a photo of this, if that is okay with you.",
+    "ko": "괜찮으시다면 이것을 사진으로 찍겠습니다.",
+    "keyChunks": [
+      "if that is okay with you"
+    ],
+    "usageNote": "협력사 보안 규정상 촬영이 금지될 수 있으니 반드시 허락을 구한다."
+  }
+]

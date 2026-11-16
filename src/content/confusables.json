@@ -1,0 +1,416 @@
+[
+  {
+    "id": "C-001",
+    "title": "Verification vs Validation",
+    "items": [
+      {
+        "term": "verification",
+        "meaningKo": "검증",
+        "explanationKo": "요구사항대로 '올바르게 만들었는가'를 확인 (리뷰, 분석, 시험)."
+      },
+      {
+        "term": "validation",
+        "meaningKo": "확인·타당성 확인",
+        "explanationKo": "안전 목표를 달성하는 '올바른 것을 만들었는가'를 차량 수준에서 확인 (ISO 26262-4 safety validation)."
+      }
+    ],
+    "keyDifferenceKo": "Verification = 사양 대비, Validation = 목적(안전 목표) 대비.",
+    "example": {
+      "en": "Unit testing is verification; vehicle tests against the safety goals are validation.",
+      "ko": "유닛 테스트는 검증이고, 안전 목표에 대한 차량 시험은 타당성 확인입니다."
+    },
+    "mnemonic": "Verification = 'Are we building the product right?' / Validation = 'Are we building the right product?'"
+  },
+  {
+    "id": "C-002",
+    "title": "Audit vs Assessment",
+    "items": [
+      {
+        "term": "functional safety audit",
+        "meaningKo": "기능안전 감사",
+        "explanationKo": "'프로세스'가 계획대로 수행되는지 평가."
+      },
+      {
+        "term": "functional safety assessment",
+        "meaningKo": "기능안전 평가",
+        "explanationKo": "'산출물·아이템'이 기능안전을 달성했는지 판단. 결과는 승인/조건부 승인/거부."
+      }
+    ],
+    "keyDifferenceKo": "Audit = 일하는 방식(How), Assessment = 결과물(What).",
+    "mnemonic": "Audit은 Activity(활동), Assessment는 Achievement(달성)."
+  },
+  {
+    "id": "C-003",
+    "title": "Fault vs Error vs Failure",
+    "items": [
+      {
+        "term": "fault",
+        "meaningKo": "결함",
+        "explanationKo": "고장을 일으킬 수 있는 비정상 상태 (원인). 예: 납땜 불량, 코드 버그."
+      },
+      {
+        "term": "error",
+        "meaningKo": "오류",
+        "explanationKo": "계산·관측값과 참값의 차이 (내부 상태가 틀어짐)."
+      },
+      {
+        "term": "failure",
+        "meaningKo": "고장",
+        "explanationKo": "요소가 요구된 기능을 수행하지 못하게 됨 (밖으로 드러난 결과)."
+      }
+    ],
+    "keyDifferenceKo": "인과 사슬: fault → error → failure.",
+    "mnemonic": "F-E-F: 원인(Fault)이 내부를 틀어지게(Error) 하고 결국 기능을 잃는다(Failure)."
+  },
+  {
+    "id": "C-004",
+    "title": "Hazard vs Risk",
+    "items": [
+      {
+        "term": "hazard",
+        "meaningKo": "위험원",
+        "explanationKo": "해를 끼칠 수 있는 잠재적 원인 그 자체."
+      },
+      {
+        "term": "risk",
+        "meaningKo": "위험(도)",
+        "explanationKo": "해가 발생할 확률과 심각도의 조합."
+      }
+    ],
+    "keyDifferenceKo": "Hazard는 '무엇이' 위험한가, Risk는 '얼마나' 위험한가.",
+    "example": {
+      "en": "The hazard is unintended braking; the risk depends on severity, exposure and controllability.",
+      "ko": "위험원은 의도치 않은 제동이고, 위험도는 심각도·노출도·통제 가능성에 따라 달라집니다."
+    }
+  },
+  {
+    "id": "C-005",
+    "title": "Finding vs Observation vs Nonconformity",
+    "items": [
+      {
+        "term": "nonconformity (major/minor)",
+        "meaningKo": "부적합 (중대/경미)",
+        "explanationKo": "요구사항을 충족하지 못함. 시정 조치가 필요."
+      },
+      {
+        "term": "finding",
+        "meaningKo": "지적사항",
+        "explanationKo": "점검 결과로 제기된 문제. 회사마다 nonconformity와 거의 같은 뜻으로 쓴다."
+      },
+      {
+        "term": "observation",
+        "meaningKo": "관찰사항",
+        "explanationKo": "부적합은 아니지만 위험 가능성이 있거나 개선을 권고하는 사항."
+      }
+    ],
+    "keyDifferenceKo": "조치 의무: nonconformity/finding = 필수, observation = 권고.",
+    "example": {
+      "en": "We have one major finding, two minor findings and three observations.",
+      "ko": "중대 지적 1건, 경미 지적 2건, 관찰사항 3건이 있습니다."
+    }
+  },
+  {
+    "id": "C-006",
+    "title": "Requirement vs Specification",
+    "items": [
+      {
+        "term": "requirement",
+        "meaningKo": "요구사항",
+        "explanationKo": "무엇을 해야 하는지에 대한 개별 문장 하나."
+      },
+      {
+        "term": "specification",
+        "meaningKo": "사양서",
+        "explanationKo": "요구사항들을 모아 정리한 문서."
+      }
+    ],
+    "keyDifferenceKo": "Specification은 Requirement들의 묶음(문서).",
+    "example": {
+      "en": "The technical safety requirements specification contains about 300 requirements.",
+      "ko": "기술 안전 요구사항 사양서에는 약 300개의 요구사항이 있습니다."
+    }
+  },
+  {
+    "id": "C-007",
+    "title": "Safety measure vs Safety mechanism",
+    "items": [
+      {
+        "term": "safety measure",
+        "meaningKo": "안전 대책",
+        "explanationKo": "고장을 피하거나 제어하는 모든 활동·기술적 해결책 (프로세스 대책 포함)."
+      },
+      {
+        "term": "safety mechanism",
+        "meaningKo": "안전 메커니즘",
+        "explanationKo": "고장을 검출·제어하는 기술적 해결책 (HW/SW로 구현된 것)."
+      }
+    ],
+    "keyDifferenceKo": "measure(넓은 개념) ⊃ mechanism(기술적 장치).",
+    "example": {
+      "en": "A design review is a safety measure; a watchdog is a safety mechanism.",
+      "ko": "설계 리뷰는 안전 대책이고, 워치독은 안전 메커니즘입니다."
+    }
+  },
+  {
+    "id": "C-008",
+    "title": "Random hardware failure vs Systematic failure",
+    "items": [
+      {
+        "term": "random hardware failure",
+        "meaningKo": "랜덤 하드웨어 고장",
+        "explanationKo": "예측할 수 없이 확률적으로 발생 (부품 열화 등). 지표(SPFM/LFM/PMHF)로 정량 평가."
+      },
+      {
+        "term": "systematic failure",
+        "meaningKo": "체계적 고장",
+        "explanationKo": "설계·사양·프로세스 실수가 원인. 같은 조건이면 반복 발생. 프로세스로 예방."
+      }
+    ],
+    "keyDifferenceKo": "랜덤 = 확률로 계산, 체계적 = 프로세스로 예방 (소프트웨어 버그는 모두 체계적).",
+    "mnemonic": "Random은 '운', Systematic은 '실수'."
+  },
+  {
+    "id": "C-009",
+    "title": "Single-point vs Residual vs Latent fault",
+    "items": [
+      {
+        "term": "single-point fault",
+        "meaningKo": "단일점 결함",
+        "explanationKo": "안전 메커니즘이 전혀 없어서 바로 안전 목표를 위반."
+      },
+      {
+        "term": "residual fault",
+        "meaningKo": "잔여 결함",
+        "explanationKo": "안전 메커니즘은 있지만 커버하지 못한 부분 (DC 100% 미만인 나머지)."
+      },
+      {
+        "term": "latent fault",
+        "meaningKo": "잠재 결함",
+        "explanationKo": "검출도, 인지도 안 된 채 숨어 있다가 다른 고장과 겹치면 위험해지는 결함."
+      }
+    ],
+    "keyDifferenceKo": "SPFM은 단일점+잔여 결함, LFM은 잠재 결함을 평가."
+  },
+  {
+    "id": "C-010",
+    "title": "Transient vs Permanent fault",
+    "items": [
+      {
+        "term": "transient fault",
+        "meaningKo": "일시적 결함",
+        "explanationKo": "한 번 발생하고 사라짐 (예: 방사선에 의한 비트 반전)."
+      },
+      {
+        "term": "permanent fault",
+        "meaningKo": "영구 결함",
+        "explanationKo": "고칠 때까지 계속 남아 있음 (예: 단선, 고착)."
+      }
+    ],
+    "keyDifferenceKo": "사라지느냐(transient), 남느냐(permanent).",
+    "mnemonic": "transit(통과)처럼 지나가 버리는 결함 = transient."
+  },
+  {
+    "id": "C-011",
+    "title": "FMEA vs FTA",
+    "items": [
+      {
+        "term": "FMEA",
+        "meaningKo": "고장 모드 영향 분석",
+        "explanationKo": "귀납적(inductive)·상향식: 부품 고장 모드에서 시작해 영향을 찾는다."
+      },
+      {
+        "term": "FTA",
+        "meaningKo": "결함 수목 분석",
+        "explanationKo": "연역적(deductive)·하향식: 최상위 사건(안전 목표 위반)에서 시작해 원인을 찾는다."
+      }
+    ],
+    "keyDifferenceKo": "FMEA는 아래→위 (원인→결과), FTA는 위→아래 (결과→원인).",
+    "mnemonic": "FTA의 T는 Tree — 나무를 위에서 뿌리까지 내려간다."
+  },
+  {
+    "id": "C-012",
+    "title": "Common cause vs Cascading failure",
+    "items": [
+      {
+        "term": "common cause failure",
+        "meaningKo": "공통 원인 고장",
+        "explanationKo": "하나의 원인이 여러 요소를 동시에 고장 냄 (예: 공유 전원 이상)."
+      },
+      {
+        "term": "cascading failure",
+        "meaningKo": "연쇄 고장",
+        "explanationKo": "한 요소의 고장이 다른 요소의 고장을 일으킴 (도미노)."
+      }
+    ],
+    "keyDifferenceKo": "공통 원인 = 원인 하나가 동시에, 연쇄 = 차례차례 전파. 둘 다 DFA 대상."
+  },
+  {
+    "id": "C-013",
+    "title": "Safety goal vs FSR vs TSR",
+    "items": [
+      {
+        "term": "safety goal",
+        "meaningKo": "안전 목표",
+        "explanationKo": "HARA 결과로 정한 최상위 요구 — 무엇을 피해야 하는가 (차량 수준)."
+      },
+      {
+        "term": "functional safety requirement (FSR)",
+        "meaningKo": "기능 안전 요구사항",
+        "explanationKo": "구현 방식과 무관하게 '무엇을' 해야 하는가."
+      },
+      {
+        "term": "technical safety requirement (TSR)",
+        "meaningKo": "기술 안전 요구사항",
+        "explanationKo": "HW/SW로 '어떻게' 구현하는가."
+      }
+    ],
+    "keyDifferenceKo": "SG(목표) → FSR(무엇) → TSR(어떻게) → HW/SW 요구사항 순으로 구체화."
+  },
+  {
+    "id": "C-014",
+    "title": "Functional safety (ISO 26262) vs SOTIF (ISO 21448)",
+    "items": [
+      {
+        "term": "functional safety",
+        "meaningKo": "기능안전",
+        "explanationKo": "시스템 '고장(fault)'으로 인한 위험을 다룸."
+      },
+      {
+        "term": "SOTIF",
+        "meaningKo": "의도된 기능의 안전성",
+        "explanationKo": "고장이 없어도 기능의 한계·사양 불충분으로 생기는 위험을 다룸 (예: 카메라가 역광에서 보행자를 못 봄)."
+      }
+    ],
+    "keyDifferenceKo": "26262 = 고장이 있을 때, 21448 = 고장이 없는데도 위험할 때."
+  },
+  {
+    "id": "C-015",
+    "title": "ISO 26262 assessment vs ASPICE assessment",
+    "items": [
+      {
+        "term": "functional safety assessment",
+        "meaningKo": "기능안전 평가",
+        "explanationKo": "아이템이 기능안전을 달성했는지 판단. 결과: 승인/조건부 승인/거부."
+      },
+      {
+        "term": "Automotive SPICE assessment",
+        "meaningKo": "ASPICE 평가",
+        "explanationKo": "프로세스 역량 수준(CL 0~5)을 N/P/L/F로 평가."
+      }
+    ],
+    "keyDifferenceKo": "26262는 '안전한가', ASPICE는 '프로세스 역량이 어느 수준인가'."
+  },
+  {
+    "id": "C-016",
+    "title": "Configuration management vs Change management",
+    "items": [
+      {
+        "term": "configuration management",
+        "meaningKo": "형상 관리",
+        "explanationKo": "산출물의 버전·베이스라인을 식별하고 관리 (지금 상태가 무엇인가)."
+      },
+      {
+        "term": "change management",
+        "meaningKo": "변경 관리",
+        "explanationKo": "변경 요청을 분석·승인·구현·검증하는 절차 (어떻게 바꾸는가)."
+      }
+    ],
+    "keyDifferenceKo": "형상 관리 = 상태 관리(What), 변경 관리 = 바꾸는 절차(How). Part 8 Clause 7 vs 8."
+  },
+  {
+    "id": "C-017",
+    "title": "Statement vs Branch vs MC/DC coverage",
+    "items": [
+      {
+        "term": "statement coverage",
+        "meaningKo": "구문 커버리지",
+        "explanationKo": "모든 코드 줄이 한 번 이상 실행되었는가."
+      },
+      {
+        "term": "branch coverage",
+        "meaningKo": "분기 커버리지",
+        "explanationKo": "모든 if의 참/거짓 분기가 실행되었는가."
+      },
+      {
+        "term": "MC/DC",
+        "meaningKo": "수정 조건/결정 커버리지",
+        "explanationKo": "조건 하나하나가 결과를 독립적으로 바꾸는 것을 보였는가."
+      }
+    ],
+    "keyDifferenceKo": "엄격도: statement < branch < MC/DC."
+  },
+  {
+    "id": "C-018",
+    "title": "TI vs TD vs TCL",
+    "items": [
+      {
+        "term": "TI (tool impact)",
+        "meaningKo": "툴 영향도",
+        "explanationKo": "툴 오작동이 안전 요구사항 위반을 일으킬 수 있는가 (TI1/TI2)."
+      },
+      {
+        "term": "TD (tool error detection)",
+        "meaningKo": "툴 오류 검출도",
+        "explanationKo": "툴 오류를 예방·검출할 확신 정도 (TD1 높음 ~ TD3 낮음)."
+      },
+      {
+        "term": "TCL (tool confidence level)",
+        "meaningKo": "툴 신뢰 수준",
+        "explanationKo": "TI와 TD로 결정 (TCL1이면 검증 불필요, TCL2·3이면 검증 필요)."
+      }
+    ],
+    "keyDifferenceKo": "TI + TD → TCL 결정 → TCL2 이상이면 tool qualification 필요."
+  },
+  {
+    "id": "C-019",
+    "title": "Shall vs Should vs May",
+    "items": [
+      {
+        "term": "shall",
+        "meaningKo": "~해야 한다 (필수)",
+        "explanationKo": "표준의 필수 요구사항. 지키지 않으면 부적합."
+      },
+      {
+        "term": "should",
+        "meaningKo": "~하는 것이 바람직하다 (권고)",
+        "explanationKo": "권고 사항. 따르지 않을 때는 근거가 있으면 된다."
+      },
+      {
+        "term": "may",
+        "meaningKo": "~해도 된다 (허용)",
+        "explanationKo": "선택 사항."
+      }
+    ],
+    "keyDifferenceKo": "shall = 의무, should = 권고, may = 허용. 지적 근거를 말할 때 중요.",
+    "example": {
+      "en": "The standard says 'shall', so this is mandatory, not a recommendation.",
+      "ko": "표준에 'shall'로 되어 있으므로 권고가 아니라 필수입니다."
+    }
+  },
+  {
+    "id": "C-020",
+    "title": "Ensure vs Assure vs Insure",
+    "items": [
+      {
+        "term": "ensure",
+        "meaningKo": "보장하다, 확실히 하다",
+        "explanationKo": "어떤 일이 확실히 일어나게 하다. 점검에서 가장 많이 씀."
+      },
+      {
+        "term": "assure",
+        "meaningKo": "(사람을) 안심시키다, 장담하다",
+        "explanationKo": "사람에게 말로 확신을 주다. assure + 사람."
+      },
+      {
+        "term": "insure",
+        "meaningKo": "보험에 들다",
+        "explanationKo": "보험 계약 (미국식에서는 ensure 뜻으로 쓰이기도 하지만 피하는 것이 좋다)."
+      }
+    ],
+    "keyDifferenceKo": "일이 되게 = ensure, 사람을 안심 = assure, 보험 = insure.",
+    "example": {
+      "en": "I can assure you that we will ensure full traceability.",
+      "ko": "완전한 추적성을 보장하겠다고 장담드립니다."
+    }
+  }
+]

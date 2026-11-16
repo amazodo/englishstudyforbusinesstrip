@@ -1,0 +1,240 @@
+[
+  {
+    "id": "T-A2-001",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "functional safety",
+    "ipa": "/ˈfʌŋkʃənəl ˈseɪfti/",
+    "stressHint": "FUNC-tion-al SAFE-ty",
+    "meaningKo": "기능안전",
+    "definitionEn": "Absence of unreasonable risk due to hazards caused by malfunctioning behavior of E/E systems.",
+    "standardRef": "ISO 26262-1:2018 (용어 정의)",
+    "example": {
+      "en": "Who is responsible for functional safety in this project?",
+      "ko": "이 프로젝트의 기능안전 책임자는 누구입니까?"
+    },
+    "collocations": [
+      "achieve functional safety",
+      "functional safety requirement"
+    ]
+  },
+  {
+    "id": "T-A2-003",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "safety plan",
+    "ipa": "/ˈseɪfti plæn/",
+    "stressHint": "SAFE-ty PLAN",
+    "meaningKo": "안전 계획",
+    "definitionEn": "The plan that defines safety activities, responsibilities and schedule for a project.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": {
+      "en": "Is the safety plan updated when the project schedule changes?",
+      "ko": "프로젝트 일정이 바뀌면 안전 계획도 업데이트됩니까?"
+    },
+    "collocations": [
+      "update the safety plan",
+      "tailored safety plan",
+      "activities in the safety plan"
+    ]
+  },
+  {
+    "id": "T-A2-004",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "safety case",
+    "ipa": "/ˈseɪfti keɪs/",
+    "stressHint": "SAFE-ty CASE",
+    "meaningKo": "안전 논증서, 세이프티 케이스",
+    "definitionEn": "An argument, supported by work products, that the safety requirements are complete and met.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": {
+      "en": "How is the safety argument structured in your safety case?",
+      "ko": "세이프티 케이스에서 안전 논증은 어떻게 구성되어 있습니까?"
+    },
+    "collocations": [
+      "compile the safety case",
+      "safety argument"
+    ],
+    "mnemonic": "법정의 case(사건 변론)처럼 '안전하다'는 주장을 증거로 변론하는 문서."
+  },
+  {
+    "id": "T-A2-008",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "work product",
+    "ipa": "/wɜːrk ˈprɑːdʌkt/",
+    "stressHint": "WORK PROD-uct",
+    "meaningKo": "작업 산출물",
+    "definitionEn": "A document or other output that results from a safety activity.",
+    "standardRef": "ISO 26262-1:2018 (용어 정의)",
+    "example": {
+      "en": "Please show me the work products for the software unit verification.",
+      "ko": "소프트웨어 유닛 검증의 산출물을 보여주세요."
+    },
+    "collocations": [
+      "work product list",
+      "release a work product"
+    ]
+  },
+  {
+    "id": "T-A2-009",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "confirmation measures",
+    "ipa": "/ˌkɑːnfərˈmeɪʃən ˈmeʒərz/",
+    "stressHint": "con-fir-MA-tion MEA-sures",
+    "meaningKo": "확인 조치 (확인 리뷰·감사·평가)",
+    "definitionEn": "Confirmation reviews, functional safety audits and assessments.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": {
+      "en": "Who performs the confirmation measures and with what level of independence?",
+      "ko": "확인 조치는 누가, 어느 수준의 독립성으로 수행합니까?"
+    },
+    "collocations": [
+      "perform confirmation measures",
+      "plan of confirmation measures"
+    ]
+  },
+  {
+    "id": "T-A2-010",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "confirmation review",
+    "ipa": "/ˌkɑːnfərˈmeɪʃən rɪˈvjuː/",
+    "stressHint": "con-fir-MA-tion re-VIEW",
+    "meaningKo": "확인 리뷰",
+    "definitionEn": "An independent check that a work product meets the requirements of ISO 26262.",
+    "standardRef": "ISO 26262-2:2018 Table 1",
+    "example": {
+      "en": "Has the confirmation review of the HARA been completed?",
+      "ko": "HARA에 대한 확인 리뷰가 완료되었습니까?"
+    },
+    "collocations": [
+      "confirmation review report",
+      "pass the confirmation review"
+    ]
+  },
+  {
+    "id": "T-A2-013",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "independence",
+    "ipa": "/ˌɪndɪˈpendəns/",
+    "stressHint": "in-de-PEN-dence",
+    "meaningKo": "독립성 (I0~I3)",
+    "definitionEn": "Separation between the people who develop a work product and those who confirm it.",
+    "standardRef": "ISO 26262-2:2018 Table 1",
+    "example": {
+      "en": "What level of independence does the reviewer have from the development team?",
+      "ko": "리뷰어는 개발팀으로부터 어느 수준의 독립성을 가집니까?"
+    },
+    "collocations": [
+      "level of independence",
+      "I3 independence",
+      "independent reviewer"
+    ],
+    "mnemonic": "I0(권장 없음) → I3(다른 부서·조직). 숫자가 클수록 더 멀리 떨어진 사람."
+  },
+  {
+    "id": "T-A2-014",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "tailoring",
+    "ipa": "/ˈteɪlərɪŋ/",
+    "stressHint": "TAI-lor-ing",
+    "meaningKo": "테일러링 (활동을 프로젝트에 맞게 조정)",
+    "definitionEn": "Omitting or performing a safety activity differently, with a rationale.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": {
+      "en": "Is there a rationale for tailoring this activity?",
+      "ko": "이 활동을 테일러링한 근거가 있습니까?"
+    },
+    "collocations": [
+      "tailor the safety lifecycle",
+      "rationale for tailoring"
+    ],
+    "mnemonic": "tailor(재단사)가 옷을 몸에 맞게 줄이듯 활동을 프로젝트에 맞게 조정."
+  },
+  {
+    "id": "T-A2-015",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 1,
+    "term": "impact analysis",
+    "ipa": "/ˈɪmpækt əˈnæləsɪs/",
+    "stressHint": "IM-pact a-NAL-y-sis",
+    "meaningKo": "영향 분석",
+    "definitionEn": "An analysis of how a change or reuse affects functional safety.",
+    "standardRef": "ISO 26262-2:2018 Clause 6 / ISO 26262-8:2018 Clause 8",
+    "example": {
+      "en": "Was an impact analysis performed for this change request?",
+      "ko": "이 변경 요청에 대해 영향 분석을 수행했습니까?"
+    },
+    "collocations": [
+      "perform an impact analysis",
+      "safety impact"
+    ],
+    "pitfall": "명사 IMpact, 동사 imPACT. analysis 복수는 analyses /əˈnæləsiːz/."
+  },
+  {
+    "id": "T-A2-017",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 2,
+    "term": "competence",
+    "ipa": "/ˈkɑːmpɪtəns/",
+    "stressHint": "COM-pe-tence",
+    "meaningKo": "역량",
+    "definitionEn": "The knowledge and skills needed to do a task correctly.",
+    "standardRef": "ISO 26262-2:2018 Clause 5",
+    "example": {
+      "en": "How do you ensure the competence of the safety engineers?",
+      "ko": "안전 엔지니어의 역량을 어떻게 보장합니까?"
+    },
+    "collocations": [
+      "competence management",
+      "training records",
+      "qualification"
+    ]
+  },
+  {
+    "id": "T-A2-018",
+    "track": "audit",
+    "domain": "iso26262",
+    "category": "A2",
+    "priority": 2,
+    "term": "release for production",
+    "ipa": "/rɪˈliːs fər prəˈdʌkʃən/",
+    "stressHint": "re-LEASE for pro-DUC-tion",
+    "meaningKo": "양산 출시 승인",
+    "definitionEn": "The approval that the item is ready for series production.",
+    "standardRef": "ISO 26262-2:2018 Clause 6",
+    "example": {
+      "en": "What are the criteria for release for production?",
+      "ko": "양산 출시 승인 기준은 무엇입니까?"
+    },
+    "collocations": [
+      "production release",
+      "SOP (start of production)"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "T-A8-001", "track": "audit", "domain": "iso26262", "category": "A8", "priority": 1,
+    "term": "FMEA", "abbreviation": "FMEA", "fullForm": "Failure Mode and Effects Analysis",
+    "ipa": "/ˌef em iː ˈeɪ/", "stressHint": "F-M-E-A",
+    "meaningKo": "고장 모드 영향 분석 (귀납적·상향식)",
+    "definitionEn": "An inductive analysis from failure modes of parts up to their effects.",
+    "standardRef": "ISO 26262-9:2018 Clause 8",
+    "example": { "en": "Are the FMEA results linked to the safety requirements?", "ko": "FMEA 결과가 안전 요구사항과 연결되어 있습니까?" },
+    "collocations": ["FMEDA", "failure mode", "effect"],
+    "confusableIds": ["C-011"]
+  },
+  {
+    "id": "T-A8-002", "track": "audit", "domain": "iso26262", "category": "A8", "priority": 1,
+    "term": "FTA", "abbreviation": "FTA", "fullForm": "Fault Tree Analysis",
+    "ipa": "/ˌef tiː ˈeɪ/", "stressHint": "F-T-A",
+    "meaningKo": "결함 수목 분석 (연역적·하향식)",
+    "definitionEn": "A deductive analysis from a top event down to the causes.",
+    "standardRef": "ISO 26262-9:2018 Clause 8",
+    "example": { "en": "What is the top event of this fault tree?", "ko": "이 결함 수목의 정상 사상(top event)은 무엇입니까?" },
+    "collocations": ["top event", "minimal cut set", "basic event"],
+    "confusableIds": ["C-011"]
+  },
+  {
+    "id": "T-A8-003", "track": "audit", "domain": "iso26262", "category": "A8", "priority": 1,
+    "term": "dependent failure analysis", "abbreviation": "DFA", "ipa": "/dɪˈpendənt ˈfeɪljər əˈnæləsɪs/", "stressHint": "de-PEN-dent FAIL-ure a-NAL-y-sis",
+    "meaningKo": "종속 고장 분석 (DFA)",
+    "definitionEn": "An analysis of failures that are not independent, such as common cause and cascading failures.",
+    "standardRef": "ISO 26262-9:2018 Clause 7",
+    "example": { "en": "Did the DFA consider shared power supply and clock?", "ko": "DFA에서 공유 전원과 클록을 고려했습니까?" },
+    "collocations": ["coupling factor", "independence"]
+  },
+  {
+    "id": "T-A8-004", "track": "audit", "domain": "iso26262", "category": "A8", "priority": 2,
+    "term": "common cause failure", "abbreviation": "CCF", "ipa": "/ˈkɑːmən kɔːz ˈfeɪljər/", "stressHint": "COM-mon CAUSE FAIL-ure",
+    "meaningKo": "공통 원인 고장",
+    "definitionEn": "Failures of several elements resulting from a single cause.",
+    "example": { "en": "Both channels use the same sensor, so a common cause failure is possible.", "ko": "두 채널이 같은 센서를 쓰므로 공통 원인 고장이 가능합니다." },
+    "collocations": ["avoid common cause failures"],
+    "confusableIds": ["C-012"]
+  },
+  {
+    "id": "T-A8-005", "track": "audit", "domain": "iso26262", "category": "A8", "priority": 2,
+    "term": "cascading failure", "ipa": "/kæˈskeɪdɪŋ ˈfeɪljər/", "stressHint": "cas-CAD-ing FAIL-ure",
+    "meaningKo": "연쇄 고장",
+    "definitionEn": "A failure of one element that causes another element to fail.",
+    "example": { "en": "Can a failure in the QM component cause a cascading failure in the ASIL component?", "ko": "QM 컴포넌트의 고장이 ASIL 컴포넌트에 연쇄 고장을 일으킬 수 있습니까?" },
+    "collocations": ["propagate", "freedom from interference"],
+    "mnemonic": "cascade = 계단식 폭포 → 위에서 아래로 차례차례 넘어감.",
+    "confusableIds": ["C-012"]
+  },
+  {
+    "id": "T-A8-006", "track": "audit", "domain": "iso26262", "category": "A8", "priority": 1,
+    "term": "ASIL decomposition", "ipa": "/ˈæsɪl ˌdiːkɑːmpəˈzɪʃən/", "stressHint": "A-sil de-com-po-SI-tion",
+    "meaningKo": "ASIL 분해 (예: D → B(D) + B(D))",
+    "definitionEn": "Splitting a requirement into redundant, independent requirements with lower ASILs.",
+    "standardRef": "ISO 26262-9:2018 Clause 5",
+    "example": { "en": "How did you show sufficient independence for this ASIL decomposition?", "ko": "이 ASIL 분해에 대해 충분한 독립성을 어떻게 보였습니까?" },
+    "collocations": ["ASIL B(D)", "decompose into"],
+    "pitfall": "B(D)는 'B of D'라고 읽는다."
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "T-B2-001", "track": "travel", "domain": "general", "category": "B2", "priority": 1,
+    "term": "platform", "ipa": "/ˈplætfɔːrm/", "stressHint": "PLAT-form",
+    "meaningKo": "(기차) 승강장",
+    "definitionEn": "The area next to the track where you get on a train.",
+    "example": { "en": "Which platform does the train to Munich leave from?", "ko": "뮌헨행 기차는 몇 번 승강장에서 출발하나요?" },
+    "collocations": ["platform 5", "change platforms"],
+    "localTip": "독일 역에서는 'Gleis'(글라이스)라고 표시된다. Gleis 5 = 5번 승강장."
+  },
+  {
+    "id": "T-B2-002", "track": "travel", "domain": "general", "category": "B2", "priority": 1,
+    "term": "one-way ticket", "ipa": "/ˌwʌn weɪ ˈtɪkɪt/", "stressHint": "ONE-way TICK-et",
+    "meaningKo": "편도 표",
+    "definitionEn": "A ticket for travel to a place but not back.",
+    "example": { "en": "A one-way ticket to Stuttgart, please.", "ko": "슈투트가르트행 편도 한 장 주세요." },
+    "collocations": ["single ticket (영국식)"]
+  },
+  {
+    "id": "T-B2-003", "track": "travel", "domain": "general", "category": "B2", "priority": 2,
+    "term": "round-trip ticket", "ipa": "/ˌraʊnd trɪp ˈtɪkɪt/", "stressHint": "ROUND-trip TICK-et",
+    "meaningKo": "왕복 표",
+    "definitionEn": "A ticket for travel to a place and back again.",
+    "example": { "en": "Is a round-trip ticket cheaper?", "ko": "왕복 표가 더 싼가요?" },
+    "collocations": ["return ticket (영국식)"]
+  },
+  {
+    "id": "T-B2-004", "track": "travel", "domain": "general", "category": "B2", "priority": 2,
+    "term": "fare", "ipa": "/fer/", "stressHint": "FARE",
+    "meaningKo": "(교통) 요금",
+    "definitionEn": "The money you pay for a journey.",
+    "example": { "en": "How much is the fare to the airport?", "ko": "공항까지 요금이 얼마인가요?" },
+    "collocations": ["taxi fare", "train fare"],
+    "pitfall": "fair(공정한, 박람회)와 발음이 같다."
+  },
+  {
+    "id": "T-B2-005", "track": "travel", "domain": "general", "category": "B2", "priority": 1,
+    "term": "delayed", "ipa": "/dɪˈleɪd/", "stressHint": "de-LAYED",
+    "meaningKo": "지연된",
+    "definitionEn": "Later than planned.",
+    "example": { "en": "The train is delayed by twenty minutes.", "ko": "기차가 20분 지연되었습니다." },
+    "collocations": ["delayed by", "delay", "canceled"],
+    "localTip": "독일 기차는 지연이 잦다. 전광판의 'Verspätung'(지연) 표시와 DB Navigator 앱을 확인."
+  },
+  {
+    "id": "T-B2-006", "track": "travel", "domain": "general", "category": "B2", "priority": 2,
+    "term": "change trains", "ipa": "/tʃeɪndʒ treɪnz/", "stressHint": "CHANGE TRAINS",
+    "meaningKo": "기차를 갈아타다",
+    "definitionEn": "To get off one train and get on another.",
+    "example": { "en": "Do I need to change trains?", "ko": "기차를 갈아타야 하나요?" },
+    "collocations": ["transfer", "direct train"],
+    "pitfall": "trains는 항상 복수형 (기차 두 대가 관련되므로)."
+  },
+  {
+    "id": "T-B2-007", "track": "travel", "domain": "general", "category": "B2", "priority": 2,
+    "term": "taxi stand", "ipa": "/ˈtæksi stænd/", "stressHint": "TAX-i STAND",
+    "meaningKo": "택시 승강장",
+    "definitionEn": "A place where taxis wait for passengers.",
+    "example": { "en": "Where is the nearest taxi stand?", "ko": "가장 가까운 택시 승강장이 어디인가요?" },
+    "collocations": ["taxi rank (영국식)", "call a taxi"]
+  },
+  {
+    "id": "T-B2-008", "track": "travel", "domain": "general", "category": "B2", "priority": 3,
+    "term": "rental car", "ipa": "/ˈrentəl kɑːr/", "stressHint": "REN-tal CAR",
+    "meaningKo": "렌터카",
+    "definitionEn": "A car you pay to use for a short time.",
+    "example": { "en": "I'd like to pick up my rental car.", "ko": "렌터카를 받으러 왔습니다." },
+    "collocations": ["car rental", "full coverage insurance"],
+    "localTip": "독일 렌터카는 수동 변속기가 기본인 경우가 많다. 예약 시 automatic을 꼭 확인."
+  },
+  {
+    "id": "T-B2-009", "track": "travel", "domain": "general", "category": "B2", "priority": 3,
+    "term": "rush hour", "ipa": "/ˈrʌʃ aʊər/", "stressHint": "RUSH hour",
+    "meaningKo": "출퇴근 혼잡 시간",
+    "definitionEn": "The busy time when many people travel to or from work.",
+    "example": { "en": "It may take longer during rush hour.", "ko": "출퇴근 시간에는 더 오래 걸릴 수 있습니다." },
+    "collocations": ["morning rush hour", "traffic jam"]
+  },
+  {
+    "id": "T-B2-010", "track": "travel", "domain": "general", "category": "B2", "priority": 2,
+    "term": "departure board", "ipa": "/dɪˈpɑːrtʃər bɔːrd/", "stressHint": "de-PAR-ture BOARD",
+    "meaningKo": "출발 안내 전광판",
+    "definitionEn": "A screen that shows departure times and platforms.",
+    "example": { "en": "Let's check the departure board.", "ko": "출발 전광판을 확인해 봅시다." },
+    "collocations": ["arrival board"]
+  }
+]

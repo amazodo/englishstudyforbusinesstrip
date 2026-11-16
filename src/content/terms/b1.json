@@ -1,0 +1,101 @@
+[
+  {
+    "id": "T-B1-001", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "boarding pass", "ipa": "/ˈbɔːrdɪŋ pæs/", "stressHint": "BOARD-ing pass",
+    "meaningKo": "탑승권",
+    "definitionEn": "The document that allows you to get on a plane.",
+    "example": { "en": "Could I see your boarding pass, please?", "ko": "탑승권 좀 보여주시겠어요?" },
+    "collocations": ["mobile boarding pass", "print a boarding pass"]
+  },
+  {
+    "id": "T-B1-002", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "carry-on", "ipa": "/ˈkæri ɑːn/", "stressHint": "CAR-ry-on",
+    "meaningKo": "기내 반입 수하물",
+    "definitionEn": "A small bag you take with you into the airplane cabin.",
+    "example": { "en": "I only have one carry-on bag.", "ko": "기내 가방 하나만 있습니다." },
+    "collocations": ["carry-on bag", "carry-on luggage"]
+  },
+  {
+    "id": "T-B1-003", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "checked baggage", "ipa": "/tʃekt ˈbæɡɪdʒ/", "stressHint": "CHECKED BAG-gage",
+    "meaningKo": "위탁 수하물",
+    "definitionEn": "Luggage you give to the airline to carry in the hold.",
+    "example": { "en": "How many pieces of checked baggage are allowed?", "ko": "위탁 수하물은 몇 개까지 허용됩니까?" },
+    "collocations": ["check in a bag", "baggage allowance"]
+  },
+  {
+    "id": "T-B1-004", "track": "travel", "domain": "general", "category": "B1", "priority": 2,
+    "term": "layover", "ipa": "/ˈleɪoʊvər/", "stressHint": "LAY-o-ver",
+    "meaningKo": "경유 대기 (환승 대기 시간)",
+    "definitionEn": "A stop between two flights on a journey.",
+    "example": { "en": "I have a three-hour layover in Frankfurt.", "ko": "프랑크푸르트에서 3시간 경유 대기가 있습니다." },
+    "collocations": ["short/long layover", "stopover"]
+  },
+  {
+    "id": "T-B1-005", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "connecting flight", "ipa": "/kəˈnektɪŋ flaɪt/", "stressHint": "con-NECT-ing FLIGHT",
+    "meaningKo": "연결 항공편, 환승편",
+    "definitionEn": "A second flight you take to reach your final destination.",
+    "example": { "en": "Where do I go for my connecting flight to Stuttgart?", "ko": "슈투트가르트행 환승편은 어디로 가야 하나요?" },
+    "collocations": ["miss a connecting flight", "transfer desk"]
+  },
+  {
+    "id": "T-B1-006", "track": "travel", "domain": "general", "category": "B1", "priority": 2,
+    "term": "gate", "ipa": "/ɡeɪt/", "stressHint": "GATE",
+    "meaningKo": "탑승구",
+    "definitionEn": "The area where passengers board a plane.",
+    "example": { "en": "The gate has changed to B42.", "ko": "탑승구가 B42로 변경되었습니다." },
+    "collocations": ["gate change", "boarding gate"]
+  },
+  {
+    "id": "T-B1-007", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "customs", "ipa": "/ˈkʌstəmz/", "stressHint": "CUS-toms",
+    "meaningKo": "세관",
+    "definitionEn": "The place where officials check goods brought into a country.",
+    "example": { "en": "Do I need to go through customs here?", "ko": "여기서 세관을 통과해야 하나요?" },
+    "collocations": ["go through customs", "customs declaration"],
+    "pitfall": "custom(관습)의 복수형처럼 보이지만 '세관'은 항상 customs."
+  },
+  {
+    "id": "T-B1-008", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "passport control", "ipa": "/ˈpæspɔːrt kənˈtroʊl/", "stressHint": "PASS-port con-TROL",
+    "meaningKo": "출입국 심사대",
+    "definitionEn": "The place where officials check passports when entering a country.",
+    "example": { "en": "Which line is for non-EU passports at passport control?", "ko": "출입국 심사대에서 비EU 여권 줄은 어디인가요?" },
+    "collocations": ["immigration", "non-EU passports"],
+    "localTip": "독일 공항은 EU / Non-EU 줄이 나뉜다. 한국 여권은 Non-EU 줄 (일부 공항은 자동출입국 심사 가능)."
+  },
+  {
+    "id": "T-B1-009", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "baggage claim", "ipa": "/ˈbæɡɪdʒ kleɪm/", "stressHint": "BAG-gage CLAIM",
+    "meaningKo": "수하물 찾는 곳",
+    "definitionEn": "The area where you pick up your checked bags after a flight.",
+    "example": { "en": "Where is the baggage claim for flight LH713?", "ko": "LH713편 수하물 찾는 곳은 어디인가요?" },
+    "collocations": ["baggage carousel", "lost baggage"]
+  },
+  {
+    "id": "T-B1-010", "track": "travel", "domain": "general", "category": "B1", "priority": 2,
+    "term": "declare", "ipa": "/dɪˈkler/", "stressHint": "de-CLARE",
+    "meaningKo": "(세관에) 신고하다",
+    "definitionEn": "To officially tell customs about goods you are carrying.",
+    "example": { "en": "I have nothing to declare.", "ko": "신고할 것이 없습니다." },
+    "collocations": ["nothing to declare", "goods to declare"]
+  },
+  {
+    "id": "T-B1-011", "track": "travel", "domain": "general", "category": "B1", "priority": 2,
+    "term": "aisle seat", "ipa": "/aɪl siːt/", "stressHint": "AISLE SEAT",
+    "meaningKo": "통로 쪽 좌석",
+    "definitionEn": "A seat next to the walkway in a plane.",
+    "example": { "en": "Could I have an aisle seat, please?", "ko": "통로 쪽 좌석으로 주시겠어요?" },
+    "collocations": ["window seat", "middle seat"],
+    "pitfall": "s는 묵음 → '아일'."
+  },
+  {
+    "id": "T-B1-012", "track": "travel", "domain": "general", "category": "B1", "priority": 1,
+    "term": "purpose of visit", "ipa": "/ˈpɜːrpəs əv ˈvɪzɪt/", "stressHint": "PUR-pose of VIS-it",
+    "meaningKo": "방문 목적",
+    "definitionEn": "The reason you are traveling to a country.",
+    "example": { "en": "What is the purpose of your visit? — Business.", "ko": "방문 목적이 무엇입니까? — 출장입니다." },
+    "collocations": ["on business", "business trip"]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "id": "T-A5-001", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "random hardware failure", "ipa": "/ˈrændəm ˈhɑːrdwer ˈfeɪljər/", "stressHint": "RAN-dom HARD-ware FAIL-ure",
+    "meaningKo": "랜덤 하드웨어 고장",
+    "definitionEn": "A failure that occurs unpredictably during the lifetime of a hardware element.",
+    "standardRef": "ISO 26262-5:2018 Clause 9",
+    "example": { "en": "How did you evaluate the safety goal violation due to random hardware failures?", "ko": "랜덤 하드웨어 고장으로 인한 안전 목표 위반은 어떻게 평가했습니까?" },
+    "collocations": ["random failure", "failure rate"],
+    "confusableIds": ["C-008"]
+  },
+  {
+    "id": "T-A5-002", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 2,
+    "term": "failure rate", "ipa": "/ˈfeɪljər reɪt/", "stressHint": "FAIL-ure RATE",
+    "meaningKo": "고장률 (단위: FIT)",
+    "definitionEn": "How often a component fails; 1 FIT is one failure in one billion hours.",
+    "example": { "en": "Which source did you use for the failure rates, SN 29500 or IEC 62380?", "ko": "고장률 출처로 SN 29500과 IEC 62380 중 무엇을 사용했습니까?" },
+    "collocations": ["FIT (failures in time)", "failure rate database"],
+    "pitfall": "FIT은 '핏'으로 읽는다. 10 FIT = '텐 핏'."
+  },
+  {
+    "id": "T-A5-003", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "single-point fault", "ipa": "/ˈsɪŋɡəl pɔɪnt fɔːlt/", "stressHint": "SIN-gle POINT FAULT",
+    "meaningKo": "단일점 결함 (안전 메커니즘 없이 바로 안전 목표를 위반)",
+    "definitionEn": "A fault that directly violates a safety goal and is not covered by any safety mechanism.",
+    "standardRef": "ISO 26262-5:2018 Clause 8",
+    "example": { "en": "Are there any single-point faults left in this design?", "ko": "이 설계에 단일점 결함이 남아 있습니까?" },
+    "collocations": ["residual fault", "single-point fault metric"],
+    "confusableIds": ["C-009"]
+  },
+  {
+    "id": "T-A5-004", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "latent fault", "ipa": "/ˈleɪtənt fɔːlt/", "stressHint": "LA-tent FAULT",
+    "meaningKo": "잠재 결함 (검출되지도, 운전자가 인지하지도 못하는 다중점 결함)",
+    "definitionEn": "A multiple-point fault that is neither detected nor perceived by the driver.",
+    "standardRef": "ISO 26262-5:2018 Clause 8",
+    "example": { "en": "How are latent faults in the safety mechanism detected?", "ko": "안전 메커니즘의 잠재 결함은 어떻게 검출합니까?" },
+    "collocations": ["latent fault metric", "multiple-point fault"],
+    "pitfall": "'레이턴트'. latency(지연)와 어원은 같지만 뜻은 '숨어 있는'.",
+    "confusableIds": ["C-009"]
+  },
+  {
+    "id": "T-A5-005", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "diagnostic coverage", "abbreviation": "DC", "ipa": "/ˌdaɪəɡˈnɑːstɪk ˈkʌvərɪdʒ/", "stressHint": "di-ag-NOS-tic COV-er-age",
+    "meaningKo": "진단 커버리지 (안전 메커니즘이 검출하는 고장 비율)",
+    "definitionEn": "The percentage of a component's failure rate that is detected or controlled by a safety mechanism.",
+    "standardRef": "ISO 26262-5:2018 Annex D",
+    "example": { "en": "How did you justify a diagnostic coverage of 99%?", "ko": "진단 커버리지 99%는 어떻게 근거를 제시했습니까?" },
+    "collocations": ["claim a DC of", "high/medium/low DC"]
+  },
+  {
+    "id": "T-A5-006", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "SPFM", "abbreviation": "SPFM", "fullForm": "Single-Point Fault Metric",
+    "ipa": "/ˌes piː ef ˈem/", "stressHint": "S-P-F-M",
+    "meaningKo": "단일점 결함 지표 (목표: ASIL D ≥99%, C ≥97%, B ≥90%)",
+    "definitionEn": "A metric showing how well the design is protected against single-point and residual faults.",
+    "standardRef": "ISO 26262-5:2018 Clause 8",
+    "example": { "en": "The SPFM is 98.5%, which does not meet the ASIL D target of 99%.", "ko": "SPFM이 98.5%로 ASIL D 목표인 99%를 충족하지 못합니다." },
+    "collocations": ["meet the SPFM target", "hardware architectural metrics"]
+  },
+  {
+    "id": "T-A5-007", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "LFM", "abbreviation": "LFM", "fullForm": "Latent Fault Metric",
+    "ipa": "/ˌel ef ˈem/", "stressHint": "L-F-M",
+    "meaningKo": "잠재 결함 지표 (목표: ASIL D ≥90%, C ≥80%, B ≥60%)",
+    "definitionEn": "A metric showing how well the design is protected against latent faults.",
+    "standardRef": "ISO 26262-5:2018 Clause 8",
+    "example": { "en": "Which safety mechanisms contribute to the LFM?", "ko": "어떤 안전 메커니즘이 LFM에 기여합니까?" },
+    "collocations": ["LFM target"]
+  },
+  {
+    "id": "T-A5-008", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 1,
+    "term": "PMHF", "abbreviation": "PMHF", "fullForm": "Probabilistic Metric for random Hardware Failures",
+    "ipa": "/ˌpiː em eɪtʃ ˈef/", "stressHint": "P-M-H-F",
+    "meaningKo": "랜덤 하드웨어 고장 확률 지표 (목표: ASIL D <10 FIT, B·C <100 FIT)",
+    "definitionEn": "The probability of violating a safety goal due to random hardware failures, in FIT.",
+    "standardRef": "ISO 26262-5:2018 Clause 9",
+    "example": { "en": "What assumptions did you make about the lifetime in the PMHF calculation?", "ko": "PMHF 계산에서 수명에 대해 어떤 가정을 했습니까?" },
+    "collocations": ["PMHF target", "PMHF calculation"],
+    "pitfall": "H는 '에이치' (/eɪtʃ/). '헤이치'로 읽지 않는다."
+  },
+  {
+    "id": "T-A5-009", "track": "audit", "domain": "iso26262", "category": "A5", "priority": 2,
+    "term": "transient fault", "ipa": "/ˈtrænʃənt fɔːlt/", "stressHint": "TRAN-sient FAULT",
+    "meaningKo": "일시적 결함 (예: 방사선에 의한 비트 반전)",
+    "definitionEn": "A fault that occurs once and then disappears, such as a bit flip.",
+    "example": { "en": "Does the ECC also cover transient faults in the RAM?", "ko": "ECC가 RAM의 일시적 결함도 커버합니까?" },
+    "collocations": ["permanent fault", "soft error", "bit flip"],
+    "confusableIds": ["C-010"]
+  }
+]

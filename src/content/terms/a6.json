@@ -1,0 +1,86 @@
+[
+  {
+    "id": "T-A6-001", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 1,
+    "term": "freedom from interference", "ipa": "/ˈfriːdəm frəm ˌɪntərˈfɪrəns/", "stressHint": "FREE-dom from in-ter-FER-ence",
+    "meaningKo": "간섭으로부터의 자유 (FFI)",
+    "definitionEn": "Absence of cascading failures from one element to another, such as from QM to ASIL software.",
+    "standardRef": "ISO 26262-6:2018 Annex D",
+    "example": { "en": "How do you ensure freedom from interference between QM and ASIL D software?", "ko": "QM 소프트웨어와 ASIL D 소프트웨어 사이의 간섭 자유를 어떻게 보장합니까?" },
+    "collocations": ["FFI", "spatial / temporal interference", "memory partitioning"]
+  },
+  {
+    "id": "T-A6-002", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 1,
+    "term": "coding guidelines", "ipa": "/ˈkoʊdɪŋ ˈɡaɪdlaɪnz/", "stressHint": "COD-ing GUIDE-lines",
+    "meaningKo": "코딩 가이드라인 (예: MISRA C)",
+    "definitionEn": "Rules for writing source code, such as MISRA C.",
+    "standardRef": "ISO 26262-6:2018 Clause 5",
+    "example": { "en": "How are deviations from MISRA C justified and approved?", "ko": "MISRA C 위반 사항은 어떻게 근거를 남기고 승인합니까?" },
+    "collocations": ["MISRA compliance", "deviation record"],
+    "pitfall": "MISRA는 '미즈라'로 읽는다."
+  },
+  {
+    "id": "T-A6-003", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 1,
+    "term": "static analysis", "ipa": "/ˈstætɪk əˈnæləsɪs/", "stressHint": "STAT-ic a-NAL-y-sis",
+    "meaningKo": "정적 분석 (코드를 실행하지 않고 분석)",
+    "definitionEn": "Analyzing source code without executing it, using a tool.",
+    "example": { "en": "Are all static analysis warnings reviewed before release?", "ko": "릴리스 전에 정적 분석 경고를 모두 검토합니까?" },
+    "collocations": ["static code analysis", "warnings", "false positive"]
+  },
+  {
+    "id": "T-A6-004", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 2,
+    "term": "software unit", "ipa": "/ˈsɔːftwer ˈjuːnɪt/", "stressHint": "SOFT-ware U-nit",
+    "meaningKo": "소프트웨어 유닛 (더 이상 나누지 않고 시험하는 최소 단위)",
+    "definitionEn": "The smallest software element that is tested independently.",
+    "standardRef": "ISO 26262-6:2018 Clause 8",
+    "example": { "en": "How is a software unit defined in your project?", "ko": "귀사 프로젝트에서 소프트웨어 유닛은 어떻게 정의됩니까?" },
+    "collocations": ["unit test", "unit verification"]
+  },
+  {
+    "id": "T-A6-005", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 1,
+    "term": "requirements-based testing", "ipa": "/rɪˈkwaɪərmənts beɪst ˈtestɪŋ/", "stressHint": "re-QUIRE-ments BASED TEST-ing",
+    "meaningKo": "요구사항 기반 시험",
+    "definitionEn": "Deriving test cases from the requirements to show that each requirement is met.",
+    "example": { "en": "Are all unit test cases derived from the requirements?", "ko": "모든 유닛 시험 케이스가 요구사항에서 도출되었습니까?" },
+    "collocations": ["derive test cases", "boundary value analysis", "equivalence classes"]
+  },
+  {
+    "id": "T-A6-006", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 1,
+    "term": "structural coverage", "ipa": "/ˈstrʌktʃərəl ˈkʌvərɪdʒ/", "stressHint": "STRUC-tur-al COV-er-age",
+    "meaningKo": "구조 커버리지 (구문·분기·MC/DC)",
+    "definitionEn": "How much of the code structure was executed by the tests.",
+    "standardRef": "ISO 26262-6:2018 Clause 9",
+    "example": { "en": "How do you justify the code that is not covered by tests?", "ko": "시험으로 커버되지 않은 코드는 어떻게 근거를 제시합니까?" },
+    "collocations": ["statement coverage", "branch coverage", "coverage report"],
+    "confusableIds": ["C-017"]
+  },
+  {
+    "id": "T-A6-007", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 1,
+    "term": "MC/DC", "abbreviation": "MC/DC", "fullForm": "Modified Condition/Decision Coverage",
+    "ipa": "/ˌem siː ˌdiː ˈsiː/", "stressHint": "M-C D-C",
+    "meaningKo": "수정 조건/결정 커버리지 (ASIL D 유닛 시험에서 강력 권고)",
+    "definitionEn": "Coverage showing that each condition independently affects the decision outcome.",
+    "standardRef": "ISO 26262-6:2018 Clause 9",
+    "example": { "en": "What MC/DC coverage did you achieve for the ASIL D units?", "ko": "ASIL D 유닛에서 MC/DC 커버리지를 얼마나 달성했습니까?" },
+    "collocations": ["achieve MC/DC", "coverage gap"],
+    "pitfall": "슬래시는 읽지 않는다 → '엠씨 디씨'.",
+    "confusableIds": ["C-017"]
+  },
+  {
+    "id": "T-A6-008", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 2,
+    "term": "back-to-back test", "ipa": "/ˌbæk tə ˈbæk test/", "stressHint": "BACK-to-BACK TEST",
+    "meaningKo": "백투백 시험 (모델과 생성 코드의 결과 비교)",
+    "definitionEn": "Comparing the outputs of a model and the generated code with the same inputs.",
+    "example": { "en": "Do you perform back-to-back tests between the Simulink model and the code?", "ko": "Simulink 모델과 코드 사이에 백투백 시험을 수행합니까?" },
+    "collocations": ["model-based development", "code generator"]
+  },
+  {
+    "id": "T-A6-009", "track": "audit", "domain": "iso26262", "category": "A6", "priority": 2,
+    "term": "hardware-in-the-loop", "abbreviation": "HIL", "ipa": "/ˈhɑːrdwer ɪn ðə luːp/", "stressHint": "HARD-ware in the LOOP",
+    "meaningKo": "HIL 시험 (실제 ECU + 가상 환경)",
+    "definitionEn": "Testing a real ECU connected to a simulated environment.",
+    "standardRef": "ISO 26262-6:2018 Clause 11",
+    "example": { "en": "Which safety requirements are verified on the HIL test bench?", "ko": "어떤 안전 요구사항이 HIL 시험 벤치에서 검증됩니까?" },
+    "collocations": ["HIL test bench", "SIL (software-in-the-loop)"],
+    "pitfall": "HIL은 보통 '힐'로 한 단어처럼 읽는다."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "T-A10-001", "track": "audit", "domain": "aspice", "category": "A10", "priority": 2,
+    "term": "capability level", "ipa": "/ˌkeɪpəˈbɪləti ˈlevəl/", "stressHint": "ca-pa-BIL-i-ty LEV-el",
+    "meaningKo": "역량 수준 (CL 0~5)",
+    "definitionEn": "A level from 0 to 5 that shows how well a process is performed and managed.",
+    "standardRef": "Automotive SPICE PAM",
+    "example": { "en": "The OEM requires capability level 2 for all VDA scope processes.", "ko": "OEM은 모든 VDA 스코프 프로세스에 역량 수준 2를 요구합니다." },
+    "collocations": ["CL2", "achieve level 2"],
+    "confusableIds": ["C-015"]
+  },
+  {
+    "id": "T-A10-002", "track": "audit", "domain": "aspice", "category": "A10", "priority": 2,
+    "term": "base practice", "abbreviation": "BP", "ipa": "/beɪs ˈpræktɪs/", "stressHint": "BASE PRAC-tice",
+    "meaningKo": "기본 실행 사항 (레벨 1 평가 지표)",
+    "definitionEn": "An activity that contributes to achieving a process purpose, used for level 1 rating.",
+    "standardRef": "Automotive SPICE PAM",
+    "example": { "en": "SWE.4 BP3 is rated only partially achieved.", "ko": "SWE.4 BP3는 부분 달성으로만 평가됩니다." },
+    "collocations": ["generic practice (GP)", "process attribute (PA)"]
+  },
+  {
+    "id": "T-A10-003", "track": "audit", "domain": "aspice", "category": "A10", "priority": 2,
+    "term": "N/P/L/F rating", "ipa": "/en piː el ef ˈreɪtɪŋ/", "stressHint": "N-P-L-F RAT-ing",
+    "meaningKo": "평가 척도: 미달성(N)·부분(P)·대부분(L)·완전(F) 달성",
+    "definitionEn": "Not, Partially, Largely or Fully achieved.",
+    "standardRef": "Automotive SPICE PAM",
+    "example": { "en": "To reach level 2, PA 1.1 must be fully achieved and PA 2.1 and 2.2 at least largely.", "ko": "레벨 2가 되려면 PA 1.1은 완전 달성, PA 2.1·2.2는 최소 대부분 달성이어야 합니다." },
+    "collocations": ["Fully achieved", "Largely achieved"],
+    "mnemonic": "N 0~15%, P 15~50%, L 50~85%, F 85~100%."
+  },
+  {
+    "id": "T-A10-004", "track": "audit", "domain": "aspice", "category": "A10", "priority": 2,
+    "term": "bidirectional traceability", "ipa": "/ˌbaɪdəˈrekʃənəl ˌtreɪsəˈbɪləti/", "stressHint": "bi-di-REC-tion-al trace-a-BIL-i-ty",
+    "meaningKo": "양방향 추적성",
+    "definitionEn": "Links that can be followed both from requirements to tests and from tests back to requirements.",
+    "standardRef": "Automotive SPICE PAM",
+    "example": { "en": "Can you show the bidirectional traceability between software requirements and unit tests?", "ko": "소프트웨어 요구사항과 유닛 시험 사이의 양방향 추적성을 보여주시겠어요?" },
+    "collocations": ["consistency", "traceability matrix"]
+  },
+  {
+    "id": "T-A10-005", "track": "audit", "domain": "aspice", "category": "A10", "priority": 2,
+    "term": "consistency", "ipa": "/kənˈsɪstənsi/", "stressHint": "con-SIS-ten-cy",
+    "meaningKo": "일관성",
+    "definitionEn": "Agreement between linked work products, without contradictions.",
+    "standardRef": "Automotive SPICE PAM",
+    "example": { "en": "How do you ensure consistency between the architecture and the detailed design?", "ko": "아키텍처와 상세 설계 사이의 일관성을 어떻게 보장합니까?" },
+    "collocations": ["ensure consistency", "consistent with"]
+  },
+  {
+    "id": "T-A10-006", "track": "audit", "domain": "aspice", "category": "A10", "priority": 3,
+    "term": "VDA scope", "ipa": "/ˌviː diː ˈeɪ skoʊp/", "stressHint": "V-D-A SCOPE",
+    "meaningKo": "VDA 스코프 (독일 자동차 업계가 정한 기본 평가 대상 프로세스)",
+    "definitionEn": "The set of processes typically assessed by German OEMs.",
+    "example": { "en": "Is SYS.5 included in the VDA scope for this assessment?", "ko": "이번 평가의 VDA 스코프에 SYS.5가 포함됩니까?" },
+    "collocations": ["assessment scope"],
+    "localTip": "VDA는 독일어로 '파우 데 아'라고 읽기도 한다. 독일 엔지니어가 그렇게 말해도 당황하지 말 것."
+  },
+  {
+    "id": "T-A10-007", "track": "audit", "domain": "aspice", "category": "A10", "priority": 3,
+    "term": "lead assessor", "ipa": "/liːd əˈsesər/", "stressHint": "LEAD as-SESS-or",
+    "meaningKo": "선임 심사원 (intacs 자격)",
+    "definitionEn": "The certified person who leads an Automotive SPICE assessment.",
+    "example": { "en": "The lead assessor will present the results in the closing meeting.", "ko": "선임 심사원이 클로징 미팅에서 결과를 발표할 것입니다." },
+    "collocations": ["competent assessor", "provisional assessor"]
+  },
+  {
+    "id": "T-A10-008", "track": "audit", "domain": "aspice", "category": "A10", "priority": 3,
+    "term": "process outcome", "ipa": "/ˈprɑːses ˈaʊtkʌm/", "stressHint": "PRO-cess OUT-come",
+    "meaningKo": "프로세스 성과 (프로세스가 달성해야 할 결과)",
+    "definitionEn": "An observable result of successfully achieving a process purpose.",
+    "standardRef": "Automotive SPICE PAM",
+    "example": { "en": "Which outcome of SUP.10 is not achieved?", "ko": "SUP.10의 어떤 성과가 달성되지 않았습니까?" },
+    "collocations": ["process purpose", "information item"]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "T-A7-001", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 1,
+    "term": "development interface agreement", "abbreviation": "DIA", "ipa": "/dɪˈveləpmənt ˈɪntərfeɪs əˈɡriːmənt/", "stressHint": "de-VEL-op-ment IN-ter-face a-GREE-ment",
+    "meaningKo": "개발 인터페이스 합의서 (DIA)",
+    "definitionEn": "An agreement between customer and supplier that defines responsibilities for safety activities.",
+    "standardRef": "ISO 26262-8:2018 Clause 5",
+    "example": { "en": "Was the DIA signed before the development started?", "ko": "개발 시작 전에 DIA에 서명했습니까?" },
+    "collocations": ["RASIC table", "responsibility matrix", "sign the DIA"]
+  },
+  {
+    "id": "T-A7-002", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 2,
+    "term": "RASIC", "abbreviation": "RASIC", "fullForm": "Responsible, Approve, Support, Inform, Consult",
+    "ipa": "/ˈræsɪk/", "stressHint": "RA-sic",
+    "meaningKo": "역할 분담표 (R/A/S/I/C)",
+    "definitionEn": "A table showing who is responsible, approves, supports, is informed or consulted.",
+    "example": { "en": "According to the RASIC, who is responsible for the safety analysis?", "ko": "RASIC에 따르면 안전 분석의 책임자는 누구입니까?" },
+    "collocations": ["RASIC table", "RACI"]
+  },
+  {
+    "id": "T-A7-003", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 1,
+    "term": "configuration management", "ipa": "/kənˌfɪɡjəˈreɪʃən ˈmænɪdʒmənt/", "stressHint": "con-fig-u-RA-tion MAN-age-ment",
+    "meaningKo": "형상 관리",
+    "definitionEn": "Identifying and controlling versions of work products so they can be reproduced.",
+    "standardRef": "ISO 26262-8:2018 Clause 7",
+    "example": { "en": "Are the safety work products under configuration management?", "ko": "안전 산출물은 형상 관리 하에 있습니까?" },
+    "collocations": ["under configuration control", "configuration item", "baseline"],
+    "confusableIds": ["C-016"]
+  },
+  {
+    "id": "T-A7-004", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 1,
+    "term": "change management", "ipa": "/tʃeɪndʒ ˈmænɪdʒmənt/", "stressHint": "CHANGE MAN-age-ment",
+    "meaningKo": "변경 관리",
+    "definitionEn": "Analyzing, approving, implementing and verifying changes in a controlled way.",
+    "standardRef": "ISO 26262-8:2018 Clause 8",
+    "example": { "en": "Can you show me a change request from start to closure?", "ko": "변경 요청 하나를 시작부터 종결까지 보여주시겠어요?" },
+    "collocations": ["change request (CR)", "change control board (CCB)", "impact analysis"],
+    "confusableIds": ["C-016"]
+  },
+  {
+    "id": "T-A7-005", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 1,
+    "term": "traceability", "ipa": "/ˌtreɪsəˈbɪləti/", "stressHint": "trace-a-BIL-i-ty",
+    "meaningKo": "추적성",
+    "definitionEn": "The ability to follow links between requirements, design, code and tests.",
+    "standardRef": "ISO 26262-8:2018 Clause 6",
+    "example": { "en": "Is there traceability from the safety goals down to the test cases?", "ko": "안전 목표부터 시험 케이스까지 추적성이 있습니까?" },
+    "collocations": ["bidirectional traceability", "traceability matrix", "trace to"]
+  },
+  {
+    "id": "T-A7-006", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 1,
+    "term": "tool qualification", "ipa": "/tuːl ˌkwɑːlɪfɪˈkeɪʃən/", "stressHint": "TOOL qual-i-fi-CA-tion",
+    "meaningKo": "툴 검증·적격성 확인",
+    "definitionEn": "Showing that a software tool can be trusted for its use in safety development.",
+    "standardRef": "ISO 26262-8:2018 Clause 11",
+    "example": { "en": "Which tools have TCL 2 or higher, and how were they qualified?", "ko": "TCL 2 이상인 툴은 무엇이며 어떻게 검증했습니까?" },
+    "collocations": ["tool classification", "tool confidence level (TCL)"],
+    "confusableIds": ["C-018"]
+  },
+  {
+    "id": "T-A7-007", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 2,
+    "term": "tool confidence level", "abbreviation": "TCL", "ipa": "/tuːl ˈkɑːnfɪdəns ˈlevəl/", "stressHint": "TOOL CON-fi-dence LEV-el",
+    "meaningKo": "툴 신뢰 수준 (TCL1~3, TI와 TD로 결정)",
+    "definitionEn": "A level determined from tool impact (TI) and tool error detection (TD).",
+    "standardRef": "ISO 26262-8:2018 Clause 11",
+    "example": { "en": "Why did you classify the compiler as TI2 and TD1?", "ko": "컴파일러를 왜 TI2, TD1으로 분류했습니까?" },
+    "collocations": ["tool impact (TI)", "tool error detection (TD)"],
+    "confusableIds": ["C-018"]
+  },
+  {
+    "id": "T-A7-008", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 2,
+    "term": "SEooC", "abbreviation": "SEooC", "fullForm": "Safety Element out of Context",
+    "ipa": "/ˈsiː uːk/", "stressHint": "S-E-o-o-C (또는 '씨욱')",
+    "meaningKo": "맥락 외 안전 요소 (특정 차량을 가정하지 않고 개발한 요소)",
+    "definitionEn": "A safety element developed based on assumptions, without a specific vehicle context.",
+    "standardRef": "ISO 26262-10:2018",
+    "example": { "en": "How were the assumptions of the SEooC validated in this vehicle?", "ko": "SEooC의 가정은 이 차량에서 어떻게 확인했습니까?" },
+    "collocations": ["assumptions of use", "safety manual"]
+  },
+  {
+    "id": "T-A7-009", "track": "audit", "domain": "iso26262", "category": "A7", "priority": 2,
+    "term": "safety manual", "ipa": "/ˈseɪfti ˈmænjuəl/", "stressHint": "SAFE-ty MAN-u-al",
+    "meaningKo": "안전 매뉴얼 (부품 사용 시 지켜야 할 조건)",
+    "definitionEn": "A document from a supplier that describes how to use a component safely.",
+    "example": { "en": "Have all requirements in the microcontroller safety manual been implemented?", "ko": "마이크로컨트롤러 안전 매뉴얼의 요구사항을 모두 구현했습니까?" },
+    "collocations": ["assumptions of use", "safety application note"]
+  }
+]
